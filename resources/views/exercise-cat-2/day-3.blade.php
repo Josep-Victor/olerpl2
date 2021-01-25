@@ -90,6 +90,8 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="row mb-4 ">
                         <div class="col-md">
                             <div class="preview">
                             <div class="text-center">Preview</div>
