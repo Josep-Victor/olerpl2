@@ -1,5 +1,7 @@
 @extends('master-2')
-
+    @section('extra-head')
+        <script type="text/javascript" src='/js/js_exercise-5.js'></script>
+    @endsection
     @section('konten')
         <section id="ole" class="day-one pb-5">
             <div class="container">          
