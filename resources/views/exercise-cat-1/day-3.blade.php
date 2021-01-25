@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master-2')
 
     @section('konten')
         <section id="ole" class="day-one pb-5">
