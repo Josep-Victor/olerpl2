@@ -147,6 +147,7 @@
                         </div>
                         <div class="col-md">
                             <div class="exercise-10">
+                            <div class="exercise-10">
                                 <div class="card">                                    
                                     <img class="card-img-top" src="{{asset('img/Side Plank.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
@@ -160,7 +161,7 @@
                         </div>
                     </div>
                     <div class="col-md">
-                            <div class="exercise-10">
+21                            <div class="exercise-10">
                                 <div class="card">                                    
                                     <img class="card-img-top" src="{{asset('img/Hip Raises.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
@@ -174,6 +175,7 @@
                         </div>
                     </div>
                     <div class="col-md">
+112                            <div class="exercise-5">
                             <div class="exercise-5">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/cobra stretch.jpg')}}" alt="Card image cap">

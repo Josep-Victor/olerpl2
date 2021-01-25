@@ -3,7 +3,6 @@
         <meta charset="UTF-8">
         <title>OLE - Sport Schedule</title>
         <link rel="shortcut icon" type="image/png" href="{{asset('img/logo-icon.png')}}">
-        <link rel="stylesheet" href='css/app.css'>
         <script language="javascript" src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js'></script>
         <script type="text/javascript" src='/js/js_days.js'></script>
         <script type="text/javascript" src='/js/jquery.stopwatch.js'></script>

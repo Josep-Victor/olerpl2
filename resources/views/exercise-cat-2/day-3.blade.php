@@ -110,6 +110,12 @@
                         <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
                         <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
                         <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
                         Kamu telah menyelesaikan olahraga hari ini
                         <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
                     </div>

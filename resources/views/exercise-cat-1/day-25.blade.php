@@ -189,6 +189,8 @@
                     </div>
                     <div class="col-md">
                             <div class="exercise-10">
+                            <div class="exercise-10">
+                            <div class="exercise-10">
                                 <div class="card">                                    
                                     <img class="card-img-top" src="{{asset('img/heel touch.jpg')}}" alt="Card image cap">
                                     <div class="card-body">

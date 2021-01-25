@@ -1,7 +1,7 @@
 @extends('master')
     @section('extra-head')
         <script type="text/javascript" src='/js/js_exercise-6.js'></script>
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        <link rel="stylesheet" href='/css/app.css'>
     @endsection
     @section('konten')
         <section id="ole" class="day-one pb-5">
@@ -19,7 +19,7 @@
                             Mulai
                         </button>
                         <p>
-                            <a href="/Kalender-olahraga2"><h6>Kembali</h6></a>
+                            <a href="/Kalender-olahraga1"><h6>Kembali</h6></a>
                         </p>
                         <div class="waktu"></div>
                     </div>
@@ -32,7 +32,7 @@
                                         <div class="card-body">
                                             <div class="card-text text-center">
                                                 <p class="total-exercise">Push Up x ??</p>
-                                                <p class="total-exercise-active">Push Up x 9</p>
+                                                <p class="total-exercise-active">Push Up x 6</p>
                                             </div>
                                         </div>
                                     </div>
@@ -46,7 +46,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Sit Up x ??</p>
-                                            <p class="total-exercise-active">Sit Up x 9</p>
+                                            <p class="total-exercise-active">Sit Up x 6</p>
                                         </div>
                                     </div>
                                 </div>
@@ -59,7 +59,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Squat x ??</p>
-                                            <p class="total-exercise-active">Squat x 9</p>
+                                            <p class="total-exercise-active">Squat x 6</p>
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Star Jump x ??</p>
-                                            <p class="total-exercise-active">Star Jump x 9</p>
+                                            <p class="total-exercise-active">Star Jump x 6</p>
                                         </div>
                                     </div>
                                 </div>
@@ -84,34 +84,39 @@
                                     <img class="card-img-top" src="{{asset('img/cobra stretch.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Cobra S. ??s</p>
-                                            <p class="total-exercise-active">Cobra S. 10s</p>
+                                            <p class="total-exercise">Cobra Stretch ??s </p>
+                                            <p class="total-exercise-active"> Cobra S. 15s </p>
                                         </div>
                                     </div>
                                 </div>
-                            </div>                                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-5">
                         <div class="col-md">
                             <div class="exercise-6">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/mountain climber.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Mountain Climber ??</p>
-                                            <p class="total-exercise-active">Mountain Climber x 9</p>
+                                            <p class="total-exercise"> Mountain Climber x ??</p>
+                                            <p class="total-exercise-active">Mountain Climber x 6 </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>                    
+                        </div>
+                    </div>
+                    <div class="row mb-4 ">
                         <div class="col-md">
                             <div class="preview">
-                            <div class="text-center">Preview</div>
-                                <img class="img-preview" src="img/push-ups.jpg" style="width: 100%; opacity: 0;">
-                                <img class="img-preview-2" src="img/sit-up.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
-                                <img class="img-preview-3" src="img/squat.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
-                                <img class="img-preview-4" src="img/pull-up.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
-                                <img class="img-preview-5" src="img/push-ups.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
-                                <img class="img-preview-6" src="img/mountain climber.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
+                                <div class="text-center">Preview</div>
+                                <img class="img-preview" src="{{asset('img/push-ups.jpg')}}" style="width: 100%; opacity: 0;">
+                                <img class="img-preview-2" src="{{asset('img/sit-up.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
+                                <img class="img-preview-3" src="{{asset('img/squat.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
+                                <img class="img-preview-4" src="{{asset('img/Star Jump.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
+                                <img class="img-preview-5" src="{{asset('img/cobra stretch.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
+                                <img class="img-preview-6" src="{{asset('img/mountain climber.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                             </div>
                         </div>
                     </div>
