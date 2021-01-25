@@ -30,8 +30,8 @@
                                         <img class="card-img-top" src="{{asset('img/push-ups.jpg')}}" alt="Card image cap">
                                         <div class="card-body">
                                             <div class="card-text text-center">
-                                                <p class="total-exercise">Push Up x 17</p>
-                                                <p class="total-exercise-active">Push Up x 17</p>
+                                                <p class="total-exercise">Push Up x ??</p>
+                                                <p class="total-exercise-active">Push Up x 11</p>
                                             </div>
                                         </div>
                                     </div>
@@ -45,7 +45,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Sit Up x ??</p>
-                                            <p class="total-exercise-active">Sit Up x 17</p>
+                                            <p class="total-exercise-active">Sit Up x 11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Squat x ??</p>
-                                            <p class="total-exercise-active">Squat x 17</p>
+                                            <p class="total-exercise-active">Squat x 11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Star Jump x ??</p>
-                                            <p class="total-exercise-active">Star Jump x 17</p>
+                                            <p class="total-exercise-active">Star Jump x 11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -98,8 +98,8 @@
                                     <img class="card-img-top" src="{{asset('img/mountain climber.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Mountain Climber ??s</p>
-                                            <p class="total-exercise-active">Mountain Climber x 17</p>
+                                            <p class="total-exercise">Mountain Climber ??</p>
+                                            <p class="total-exercise-active">Mountain Climber x 11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -111,8 +111,8 @@
                                     <img class="card-img-top" src="{{asset('img/Lunges.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Lunges ??s</p>
-                                            <p class="total-exercise-active">Lunges x 17</p>
+                                            <p class="total-exercise">Lunges ??</p>
+                                            <p class="total-exercise-active">Lunges x 11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -124,8 +124,8 @@
                                     <img class="card-img-top" src="{{asset('img/russian twist.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Russian Twist ??s</p>
-                                            <p class="total-exercise-active">Russian Twist x 17</p>
+                                            <p class="total-exercise">Russian Twist ??</p>
+                                            <p class="total-exercise-active">Russian Twist x 11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -137,8 +137,8 @@
                                     <img class="card-img-top" src="{{asset('img/plank.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">plank ??s</p>
-                                            <p class="total-exercise-active">plank x 17</p>
+                                            <p class="total-exercise">plank ??</p>
+                                            <p class="total-exercise-active">plank x 11</p>
                                         </div>
                                     </div>
                                 </div>

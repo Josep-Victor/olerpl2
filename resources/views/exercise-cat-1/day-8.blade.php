@@ -31,7 +31,7 @@
                                         <div class="card-body">
                                             <div class="card-text text-center">
                                                 <p class="total-exercise">Push Up x ??</p>
-                                                <p class="total-exercise-active">Push Up x 20</p>
+                                                <p class="total-exercise-active">Push Up x 8</p>
                                             </div>
                                         </div>
                                     </div>
@@ -45,7 +45,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Sit Up x ??</p>
-                                            <p class="total-exercise-active">Sit Up x 20</p>
+                                            <p class="total-exercise-active">Sit Up x 8</p>
                                         </div>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Squat x ??</p>
-                                            <p class="total-exercise-active">Squat x 20</p>
+                                            <p class="total-exercise-active">Squat x 8</p>
                                         </div>
                                     </div>
                                 </div>
@@ -67,11 +67,11 @@
                         <div class="col-md">
                             <div class="exercise-4">
                                 <div class="card">
-                                    <img class="card-img-top" src="{{asset('img/pull-up.jpg')}}" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset('img/Star jump.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Star Jump x ??</p>
-                                            <p class="total-exercise-active">Star Jump x 20</p>
+                                            <p class="total-exercise-active">Star Jump x 8</p>
                                         </div>
                                     </div>
                                 </div>
@@ -80,7 +80,7 @@
                         <div class="col-md">
                             <div class="exercise-5">
                                 <div class="card">
-                                    <img class="card-img-top" src="{{asset('img/push-ups.jpg')}}" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset('img/cobra stretch.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Cobra Stretch ??s</p>
@@ -95,11 +95,11 @@
                         <div class="col-md">
                             <div class="exercise-6">
                                 <div class="card">
-                                    <img class="card-img-top" src="{{asset('img/push-ups.jpg')}}" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset('img/mountain climber.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Cobra Stretch ??s</p>
-                                            <p class="total-exercise-active">Cobra S. 20s</p>
+                                            <p class="total-exercise">Mountain Climber ??</p>
+                                            <p class="total-exercise-active">Mountain Climber x 8</p>
                                         </div>
                                     </div>
                                 </div>
@@ -108,11 +108,11 @@
                         <div class="col-md">
                             <div class="exercise-7">
                                 <div class="card">
-                                    <img class="card-img-top" src="{{asset('img/push-ups.jpg')}}" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset('img/lunges.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Cobra Stretch ??s</p>
-                                            <p class="total-exercise-active">Cobra S. 20s</p>
+                                            <p class="total-exercise">Lunges ??</p>
+                                            <p class="total-exercise-active">Lunges x 8</p>
                                         </div>
                                     </div>
                                 </div>

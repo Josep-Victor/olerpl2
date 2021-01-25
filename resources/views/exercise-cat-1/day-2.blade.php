@@ -29,7 +29,7 @@
                                         <div class="card-body">
                                             <div class="card-text text-center">
                                                 <p class="total-exercise">Push Up x ??</p>
-                                                <p class="total-exercise-active">Push Up x 6</p>
+                                                <p class="total-exercise-active">Push Up x 5</p>
                                             </div>
                                         </div>
                                     </div>
@@ -43,7 +43,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Sit Up x ??</p>
-                                            <p class="total-exercise-active">Sit Up x 6</p>
+                                            <p class="total-exercise-active">Sit Up x 5</p>
                                         </div>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Squat x ??</p>
-                                            <p class="total-exercise-active">Squat x 6</p>
+                                            <p class="total-exercise-active">Squat x 5</p>
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Star Jump x ??</p>
-                                            <p class="total-exercise-active">Star Jump x 6</p>
+                                            <p class="total-exercise-active">Star Jump x 5</p>
                                         </div>
                                     </div>
                                 </div>
