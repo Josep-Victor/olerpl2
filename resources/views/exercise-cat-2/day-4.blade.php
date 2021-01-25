@@ -109,13 +109,13 @@
                     <div class="row mb-4 ">
                         <div class="col-md">
                             <div class="preview">
-                                <div class="text-center">Preview</div>
-                                <img class="img-preview" src="{{asset('img/push-ups.jpg')}}" style="width: 100%; opacity: 0;">
+                            <div class="text-center">Preview</div>
+                                <img class="img-preview" src="img/push-ups.jpg" style="width: 100%; opacity: 0;">
                                 <img class="img-preview-2" src="img/sit-up.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-3" src="img/squat.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-4" src="img/pull-up.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-5" src="img/push-ups.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
-                                <img class="img-preview-6" src="img/push-ups.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
+                                <img class="img-preview-6" src="img/mountain climber.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                             </div>
                         </div>
                     </div>

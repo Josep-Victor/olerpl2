@@ -151,7 +151,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Side Plank ??s</p>
-                                            <p class="total-exercise-active">Side Plank. 20s</p>
+                                            <p class="total-exercise-active">Side Plank. 12s</p>
                                         </div>
                                     </div>
                                 </div>
