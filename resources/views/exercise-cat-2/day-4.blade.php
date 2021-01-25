@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master-2')
     @section('extra-head')
     <script type="text/javascript" src="{{asset('js/js_exercise-6.js')}}"></script>
     @endsection
@@ -116,6 +116,8 @@
                                 <img class="img-preview-4" src="{{asset('img/star jump.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-5" src="{{asset('img/cobra stretch.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-6" src="{{asset('img/mountain climber.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
+                                <img class="img-preview-5" src="img/push-ups.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
+                                <img class="img-preview-6" src="img/mountain climber.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-5" src="img/push-ups.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-6" src="img/mountain climber.jpg" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                             </div>

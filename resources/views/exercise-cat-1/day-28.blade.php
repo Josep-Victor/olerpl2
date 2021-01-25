@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master-2')
     @section('extra-head')
     <script type="text/javascript" src="{{asset('js/js_exercise-13.js')}}"></script>
     @endsection

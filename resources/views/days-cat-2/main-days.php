@@ -12,12 +12,12 @@
                     </div>
                 </div>
 
-                @include('days-cat-2.1-5')
-                @include('days-cat-2.6-10')
-                @include('days-cat-2.11-15')
-                @include('days-cat-2.16-20')
-                @include('days-cat-2.21-25')
-                @include('days-cat-2.26-30')
+                @include('days-cat-1.1-5')
+                @include('days-cat-1.6-10')
+                @include('days-cat-1.11-15')
+                @include('days-cat-1.16-20')
+                @include('days-cat-1.21-25')
+                @include('days-cat-1.26-30')
             </div>
         </section>
         @endsection

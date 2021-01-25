@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master-2')
     @section('extra-head')
     <script type="text/javascript" src="{{asset('js/js_exercise-7.js')}}"></script>
     @endsection
@@ -117,25 +117,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md">
-                            <div class="exercise-8">
-                                <div class="card" style="opacity:0;">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md">
-                            <div class="exercise-9">
-                                <div class="card" style="opacity:0;">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md">
-                            <div class="exercise-10">
-                                <div class="card" style="opacity:0;">
-                                </div>
-                            </div>
-                        </div>
+                        </div>                
                     </div>
                     <div class="row mb-4 ">
                         <div class="col-md">
