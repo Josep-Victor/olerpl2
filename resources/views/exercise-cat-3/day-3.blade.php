@@ -1,6 +1,7 @@
 @extends('master')
     @section('extra-head')
         <script type="text/javascript" src='/js/js_exercise-5.js'></script>
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
     @endsection
     @section('konten')
         <section id="ole" class="day-one pb-5">
@@ -18,7 +19,7 @@
                             Mulai
                         </button>
                         <p>
-                            <a href="{{asset('Kalender-olahraga3')}}"><h6>Kembali</h6></a>
+                            <a href="/Kalender-olahraga3"><h6>Kembali</h6></a>
                         </p>
                         <div class="waktu"></div>
                     </div>
