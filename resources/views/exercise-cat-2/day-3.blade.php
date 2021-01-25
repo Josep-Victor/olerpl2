@@ -1,7 +1,6 @@
-@extends('master-2')
+@extends('master')
     @section('extra-head')
         <script type="text/javascript" src='/js/js_exercise-5.js'></script>
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
     @endsection
     @section('konten')
         <section id="ole" class="day-one pb-5">
@@ -107,6 +106,9 @@
                     <div class="penutup">
                         selamat!
                         Kamu telah menyelesaikan olahraga hari ini
+                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
                         <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
                         Kamu telah menyelesaikan olahraga hari ini
                         <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
