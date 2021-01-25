@@ -1,8 +1,4 @@
 @extends('master-2')
-    @section('extra-head')
-        <script type="text/javascript" src="{{asset('/js/js_days.js')}}"></script>
-        <script type="text/javascript" src="{{asset('/js/jquery.stopwatch.js')}}"></script>
-        @endsection
         @section('konten')
         <section id="ole" class="section-index pb-5">
             <div class="container">

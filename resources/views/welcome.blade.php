@@ -1,8 +1,6 @@
 @extends('master')
     @section('extra-head')
         <script type="text/javascript" src='/js/js_categories.js'></script>
-        <script type="text/javascript" src='/js/js_days.js'></script>
-        <script type="text/javascript" src='/js/jquery.stopwatch.js'></script>
     @endsection
     @section('konten')
         <section id="ole" class="welcome pb-5">
