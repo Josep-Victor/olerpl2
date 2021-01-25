@@ -109,7 +109,7 @@
                         <div class="col-md">
                             <div class="exercise-7">
                                 <div class="card">
-                                    <img class="card-img-top" src="{{asset('img/lunges.jpg')}}" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset('img/Lunges.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Lunges ??</p>
@@ -155,7 +155,7 @@
                                 <img class="img-preview-4" src="{{asset('img/Star Jump.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-5" src="{{asset('img/cobra stretch.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-6" src="{{asset('img/mountain climber.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
-                                <img class="img-preview-7" src="{{asset('img/lunges.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
+                                <img class="img-preview-7" src="{{asset('img/Lunges.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-8" src="{{asset('img/russian twist.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                             </div>
                         </div>
