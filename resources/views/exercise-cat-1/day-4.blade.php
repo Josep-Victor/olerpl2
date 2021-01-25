@@ -1,7 +1,7 @@
 @extends('master')
-    @section('extra-hhead')
+    @section('extra-head')
         <script type="text/javascript" src='/js/js_exercise-6.js'></script>
-        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        <link rel="stylesheet" href='/css/app.css'>
     @endsection
     @section('konten')
         <section id="ole" class="day-one pb-5">
