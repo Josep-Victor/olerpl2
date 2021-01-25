@@ -99,8 +99,8 @@
                                     <img class="card-img-top" src="{{asset('img/mountain climber.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Mountain Climber ??</p>
-                                            <p class="total-exercise-active">Mountain Climber x 12</p>
+                                            <p class="total-exercise">Mountain C. ??</p>
+                                            <p class="total-exercise-active">Mountain C. x 12</p>
                                         </div>
                                     </div>
                                 </div>

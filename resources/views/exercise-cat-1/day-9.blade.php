@@ -96,11 +96,11 @@
                         <div class="col-md">
                             <div class="exercise-6">
                                 <div class="card">
-                                    <img class="card-img-top" src="{{asset('img/Mountain Climber.jpg')}}" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset('img/Mountain C..jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Mountain Climber ??s</p>
-                                            <p class="total-exercise-active">Mountain Climber 20s</p>
+                                            <p class="total-exercise">Mountain C. ??s</p>
+                                            <p class="total-exercise-active">Mountain C. 20s</p>
                                         </div>
                                     </div>
                                 </div>
