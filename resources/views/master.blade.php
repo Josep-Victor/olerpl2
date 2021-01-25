@@ -5,9 +5,9 @@
         <link rel="shortcut icon" type="image/png" href="{{secure_asset('img/logo-icon.png')}}">
         <link rel="stylesheet" href="{{secure_asset('css/app.css')}}">
         <script language="javascript" src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js'></script>
-        <script type="text/javascript" src="{{secure_asset('js/js_categories.js')}}"></script>
-        <script type="text/javascript" src="{{secure_asset('js/js_days.js')}}"></script>
-        <script type="text/javascript" src="{{secure_asset('js/jquery.stopwatch.js')}}"></script>
+        <script type="text/javascript" src="{{URL::secure_asset('js/js_categories.js')}}"></script>
+        <script type="text/javascript" src="{{URL::secure_asset('js/js_days.js')}}"></script>
+        <script type="text/javascript" src="{{URL::secure_asset('js/jquery.stopwatch.js')}}"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         @yield('extra-head')
     </head>
