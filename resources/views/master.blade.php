@@ -2,8 +2,8 @@
     <head>
         <meta charset="UTF-8">
         <title>OLE - Sport Schedule</title>
-        <link rel="shortcut icon" type="image/png" href="{{secure_asset('img/logo-icon.png')}}">
-        <link rel="stylesheet" href="{{secure_asset('css/app.css')}}">
+        <link rel="shortcut icon" type="image/png" href=img/logo-icon.png'>
+        <link rel="stylesheet" href='css/app.css'>
         <script language="javascript" src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js'></script>
         <script type="text/javascript" src='/js/js_categories.js'></script>
         <script type="text/javascript" src='/js/js_days.js'></script>
@@ -28,7 +28,7 @@
         @yield('konten')
 
         <footer>
-            <img src="{{secure_asset('img/logo-footer.png')}}" style="width: 100px;">
+            <img src='img/logo-footer.png' style="width: 100px;">
             <h3>Designed by OLE Team.</h3>
         </footer>
     </body>
