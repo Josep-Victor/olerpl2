@@ -29,7 +29,7 @@
                                         <div class="card-body">
                                             <div class="card-text text-center">
                                                 <p class="total-exercise">Push Up x ??</p>
-                                                <p class="total-exercise-active">Push Up x 20</p>
+                                                <p class="total-exercise-active">Push Up x 7</p>
                                             </div>
                                         </div>
                                     </div>
@@ -43,7 +43,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Sit Up x ??</p>
-                                            <p class="total-exercise-active">Sit Up x 20</p>
+                                            <p class="total-exercise-active">Sit Up x 7</p>
                                         </div>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Squat x ??</p>
-                                            <p class="total-exercise-active">Squat x 20</p>
+                                            <p class="total-exercise-active">Squat x 7</p>
                                         </div>
                                     </div>
                                 </div>
