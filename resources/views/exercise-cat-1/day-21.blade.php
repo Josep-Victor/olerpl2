@@ -1,6 +1,7 @@
-@extends('master-2')
+@extends('master')
     @section('extra-head')
     <script type="text/javascript" src='/js/js_exercise-11.js'></script>
+        <link rel="stylesheet" href='/css/app.css'>
     @endsection
     @section('konten')
         <section id="ole" class="day-one pb-5">
@@ -159,7 +160,7 @@
                         </div>
                     </div>
                     <div class="col-md">
-                            <div class="exercise-10">
+                            <div class="exercise-11">
                                 <div class="card">                                    
                                     <img class="card-img-top" src="{{asset('img/Hip Raises.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
