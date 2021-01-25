@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://olahragaonline.herokuapp.com'),
+    'url' => env('APP_URL', 'http://olahragaonline.herokuapp.com'),
 
     'asset_url' => env('ASSET_URL', null),
 
