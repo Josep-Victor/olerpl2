@@ -31,7 +31,7 @@
                                         <div class="card-body">
                                             <div class="card-text text-center">
                                                 <p class="total-exercise">Push Up x ??</p>
-                                                <p class="total-exercise-active">Push Up x 26</p>
+                                                <p class="total-exercise-active">Push Up x 17</p>
                                             </div>
                                         </div>
                                     </div>
@@ -45,7 +45,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Sit Up x ??</p>
-                                            <p class="total-exercise-active">Sit Up x 26</p>
+                                            <p class="total-exercise-active">Sit Up x 17</p>
                                         </div>
                                     </div>
                                 </div>
@@ -58,7 +58,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Squat x ??</p>
-                                            <p class="total-exercise-active">Squat x 26</p>
+                                            <p class="total-exercise-active">Squat x 17</p>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Star Jump x ??</p>
-                                            <p class="total-exercise-active">Star Jump x 26</p>
+                                            <p class="total-exercise-active">Star Jump x 17</p>
                                         </div>
                                     </div>
                                 </div>
@@ -99,7 +99,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Mountain Climber??s</p>
-                                            <p class="total-exercise-active">Mountain Climber x 26</p>
+                                            <p class="total-exercise-active">Mountain Climber x 17</p>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +112,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Lunges ??</p>
-                                            <p class="total-exercise-active">Lunges x 26</p>
+                                            <p class="total-exercise-active">Lunges x 17</p>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +125,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Russian Twist ??</p>
-                                            <p class="total-exercise-active">Russian Twist x 26</p>
+                                            <p class="total-exercise-active">Russian Twist x 17</p>
                                         </div>
                                     </div>
                                 </div>
@@ -165,7 +165,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Hip Raises ??s</p>
-                                            <p class="total-exercise-active">Hip Raises x 26</p>
+                                            <p class="total-exercise-active">Hip Raises x 17</p>
                                         </div>
                                     </div>
                                 </div>

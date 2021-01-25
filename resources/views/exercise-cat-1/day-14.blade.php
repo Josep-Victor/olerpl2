@@ -20,6 +20,7 @@
                         <p>
                             <a href="{{asset('Kalender-olahraga1')}}"><h6>Kembali</h6></a>
                         </p>
+                        
                         <div class="waktu"></div>
                     </div>
                     <div class="row mb-4 ">
@@ -31,7 +32,7 @@
                                         <div class="card-body">
                                             <div class="card-text text-center">
                                                 <p class="total-exercise">Push Up x ??</p>
-                                                <p class="total-exercise-active">Push Up x 18</p>
+                                                <p class="total-exercise-active">Push Up x 11</p>
                                             </div>
                                         </div>
                                     </div>
@@ -45,7 +46,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Sit Up x ??</p>
-                                            <p class="total-exercise-active">Sit Up x 18</p>
+                                            <p class="total-exercise-active">Sit Up x 11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -58,7 +59,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Squat x ??</p>
-                                            <p class="total-exercise-active">Squat x 18</p>
+                                            <p class="total-exercise-active">Squat x 11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +72,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Star Jump x ??</p>
-                                            <p class="total-exercise-active">Star Jump x 18</p>
+                                            <p class="total-exercise-active">Star Jump x 11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -99,7 +100,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Mountain Climber??s</p>
-                                            <p class="total-exercise-active">Mountain Climber x18</p>
+                                            <p class="total-exercise-active">Mountain Climber x11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +113,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Lunges ??</p>
-                                            <p class="total-exercise-active">Lunges x18</p>
+                                            <p class="total-exercise-active">Lunges x11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +126,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Russian Twist ??</p>
-                                            <p class="total-exercise-active">Russian Twist x18</p>
+                                            <p class="total-exercise-active">Russian Twist x11</p>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +139,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">plank ??s</p>
-                                            <p class="total-exercise-active">plank x 18</p>
+                                            <p class="total-exercise-active">plank x 11</p>
                                         </div>
                                     </div>
                                 </div>

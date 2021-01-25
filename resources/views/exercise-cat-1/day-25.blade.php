@@ -31,7 +31,7 @@
                                         <div class="card-body">
                                             <div class="card-text text-center">
                                                 <p class="total-exercise">Push Up x ??</p>
-                                                <p class="total-exercise-active">Push Up x 28</p>
+                                                <p class="total-exercise-active">Push Up x 18</p>
                                             </div>
                                         </div>
                                     </div>
