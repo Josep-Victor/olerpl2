@@ -19,7 +19,7 @@
                             Mulai
                         </button>
                         <p>
-                            <a href="{{asset('Kalender-olahraga1')}}"><h6>Kembali</h6></a>
+                            <a href="Kalender-olahraga1"><h6>Kembali</h6></a>
                         </p>
                         <div class="waktu"></div>
                     </div>
