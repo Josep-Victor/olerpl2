@@ -27,7 +27,7 @@ $(document).ready(function(){
 
         else {
             $('.kategori').attr('href','Kalender-olahraga3');
-        }s
+        }
 
         $('.notif-ideal').addClass('notif-ideal-active');
         $('.notif-ideal-active').removeClass('notif-ideal');``
