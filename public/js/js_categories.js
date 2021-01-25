@@ -22,11 +22,11 @@ $(document).ready(function(){
         }
 
         else if (skor >= 41 && skor <= 80) {
-            $('.kategori').attr('href','Kalender2');
+            $('.kategori').attr('href','Kalender-olahraga2');
         }
 
         else {
-            $('.kategori').attr('href','Kalender3');
+            $('.kategori').attr('href','Kalender-olahraga3');
         }
 
         $('.notif-ideal').addClass('notif-ideal-active');
