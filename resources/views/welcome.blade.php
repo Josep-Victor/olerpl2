@@ -1,5 +1,7 @@
 @extends('master')
-    
+    @section('extra-head')
+        <script type="text/javascript" src='/js/js_categories.js'></script>
+    @endsection
     @section('konten')
         <section id="ole" class="welcome pb-5">
             <div class="container">
