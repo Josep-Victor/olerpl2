@@ -4,7 +4,7 @@
         <link rel="stylesheet" href='/css/app.css'>
     @endsection
     @section('konten')
-        <section id="ole" class="day-one pb-5">
+    <section id="ole" class="day-one pb-5">
             <div class="container">          
                 <div class="judul">
                     <div class="row pt-5">
@@ -85,7 +85,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Cobra Stretch ??s</p>
-                                            <p class="total-exercise-active">Cobra S. 21s</p>
+                                            <p class="total-exercise-active">Cobra S. 20s</p>
                                         </div>
                                     </div>
                                 </div>
@@ -99,7 +99,7 @@
                                     <img class="card-img-top" src="{{asset('img/mountain climber.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Mountain Climber??s</p>
+                                            <p class="total-exercise">Mountain Climber ??</p>
                                             <p class="total-exercise-active">Mountain Climber x 13</p>
                                         </div>
                                     </div>
@@ -109,7 +109,7 @@
                         <div class="col-md">
                             <div class="exercise-7">
                                 <div class="card">
-                                    <img class="card-img-top" src="{{asset('img/lunges.jpg'')}}" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset('img/Lunges.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Lunges ??</p>
@@ -138,8 +138,8 @@
                                     <img class="card-img-top" src="{{asset('img/plank.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                        <p class="total-exercise">plank ??s</p>
-                                            <p class="total-exercise-active">plank. 21s</p>
+                                        <p class="total-exercise"> Plank ??s</p>
+                                            <p class="total-exercise-active">Plank. 20s</p>
                                         </div>
                                     </div>
                                 </div>
@@ -147,12 +147,12 @@
                         </div>
                         <div class="col-md">
                             <div class="exercise-10">
-                                <div class="card">                                    
+                                <div class="card">                                   
                                     <img class="card-img-top" src="{{asset('img/Side Plank.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Side Plank ??s</p>
-                                            <p class="total-exercise-active">Side Plank. 21s</p>
+                                            <p class="total-exercise-active">Side Plank. 20s</p>
                                         </div>
                                     </div>
                                 </div>
@@ -161,7 +161,8 @@
                     </div>
                     <div class="row mb-4 ">
                         <div class="col-md">
-                        <div class="text-center">Preview</div>
+                            <div class="preview">
+                                <div class="text-center">Preview</div>
                                 <img class="img-preview" src="{{asset('img/push-ups.jpg')}}" style="width: 100%; opacity: 0;">
                                 <img class="img-preview-2" src="{{asset('img/sit-up.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-3" src="{{asset('img/squat.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">

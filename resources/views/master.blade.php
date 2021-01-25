@@ -26,7 +26,7 @@
         @yield('konten')
 
         <footer>
-            <img src='img/logo-footer.png' style="width: 100px;">
+            <img src='/img/logo-footer.png' style="width: 100px;">
             <h3>Designed by OLE Team.</h3>
         </footer>
     </body>

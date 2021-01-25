@@ -84,7 +84,7 @@
                                     <img class="card-img-top" src="{{asset('img/cobra stretch.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
-                                            <p class="total-exercise">Cobra Stretch ??</p>
+                                            <p class="total-exercise">Cobra Stretch ??s</p>
                                             <p class="total-exercise-active">Cobra S. 20s</p>
                                         </div>
                                     </div>
@@ -154,7 +154,8 @@
                     </div>
                     <div class="row mb-4 ">
                         <div class="col-md">
-                        <div class="text-center">Preview</div>
+                            <div class="preview">
+                                <div class="text-center">Preview</div>
                                 <img class="img-preview" src="{{asset('img/push-ups.jpg')}}" style="width: 100%; opacity: 0;">
                                 <img class="img-preview-2" src="{{asset('img/sit-up.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">
                                 <img class="img-preview-3" src="{{asset('img/squat.jpg')}}" style="width: 0; height: 0; opacity: 0; visibility: hidden;">

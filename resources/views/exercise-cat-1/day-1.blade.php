@@ -10,7 +10,7 @@
                     <div class="row pt-5">
                         <div class="col text-center text-white">
                         <h1>Day 1</h1>
-                        <h3><i>Push-up, Sit-up, Squat, Jumping jack</i></h3>
+                        <h3><i>Push-up, Sit-up, Squat, Star Jump, Cobra Stretch</i></h3>
                         <center><hr color="white" width="200"></hr></center>
                         </div>
                     </div>
