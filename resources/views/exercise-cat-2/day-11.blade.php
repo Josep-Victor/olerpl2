@@ -18,7 +18,7 @@ b@extends('master-2')
                             Mulai
                         </button>
                         <p>
-                            <a href="Kalender-olahraga2"><h6>Kembali</h6></a>
+                            <a href="{{asset('Kalender-olahraga2')}}"><h6>Kembali</h6></a>
                         </p>
                         <div class="waktu"></div>
                     </div>
