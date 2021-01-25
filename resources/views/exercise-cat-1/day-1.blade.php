@@ -5,7 +5,7 @@
     @section('konten')
         <section id="ole" class="day-one pb-5">
             <div class="container">          
-                <div class="judul">
+                <div class="judul">se
                     <div class="row pt-5">
                         <div class="col text-center text-white">
                         <h1>Day 1</h1>

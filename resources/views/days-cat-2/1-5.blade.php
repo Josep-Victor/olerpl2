@@ -1,5 +1,6 @@
     <div class="kolom-satu">        
         <div class="row mb-4 ">
+            <a href="part/exercise-cat-2/day-1.php">
                 <div class="col-md">
                     <div class="card">
                         <img class="card-img-top" src="img/push-ups.jpg" alt="Card image cap" style="width: 200px;">
@@ -8,6 +9,7 @@
                         </div>
                     </div>
                 </div>
+            </a>
               <div class="col-md">
                 <div class="card">
                     <img class="card-img-top" src="img/sit-up.jpg" alt="Card image cap">
