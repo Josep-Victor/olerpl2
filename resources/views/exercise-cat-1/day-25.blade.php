@@ -201,19 +201,6 @@
                         </div>
                     </div>
                         <div class="col-md">
-                            <div class="exercise-13">
-                                <div class="card">
-                                    <img class="card-img-top" src="{{asset('img/push-ups.jpg')}}" alt="Card image cap">
-                                    <div class="card-body">
-                                        <div class="card-text text-center">
-                                            <p class="total-exercise">Cobra Stretch ??s</p>
-                                            <p class="total-exercise-active">Cobra S. 20s</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md">
                             <div class="exercise-14">
                                 <div class="card" style="opacity:0;">
                                 </div>
