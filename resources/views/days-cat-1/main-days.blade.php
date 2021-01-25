@@ -1,4 +1,7 @@
-@extends('master-2')
+@extends('master')
+    @section('extra-head')
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        @endsection
         @section('konten')
         <section id="ole" class="section-index pb-5">
             <div class="container">
