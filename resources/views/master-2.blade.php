@@ -5,8 +5,8 @@
         <link rel="shortcut icon" type="image/png" href="{{asset('img/logo-icon.png')}}">
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
         <script language="javascript" src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.1.js'></script>
-        <script type="text/javascript" src='../js/js_days.js'></script>
-        <script type="text/javascript" src='../js/jquery.stopwatch.js'></script>
+        <script type="text/javascript" src='js/js_days.js'></script>
+        <script type="text/javascript" src="{{URL::asset('js/jquery.stopwatch.js')}}"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         @yield('extra-head')
     </head>
@@ -25,7 +25,6 @@
         </section>
 
         @yield('konten')
-
         <footer>
             <img src="{{asset('img/logo-footer.png')}}" style="width: 100px;">
             <h3>Designed by OLE Team.</h3>
