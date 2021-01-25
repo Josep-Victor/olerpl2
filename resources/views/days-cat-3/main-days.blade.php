@@ -1,4 +1,4 @@
-@extends('master')
+@extends('master-2')
         @section('konten')
         <section id="ole" class="section-index pb-5">
             <div class="container">

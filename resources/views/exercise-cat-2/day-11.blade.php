@@ -1,4 +1,4 @@
-b@extends('master')
+b@extends('master-2')
     @section('extra-head')
     <script type="text/javascript" src='/js/js_exercise-8.js'></script>
     @endsection
