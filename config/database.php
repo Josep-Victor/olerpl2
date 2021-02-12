@@ -62,13 +62,13 @@ return [
         //        PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
         //    ]) : [],
         //],
-        ‘mysql’ => [
+        'mysql' => [
             ‘driver’ => ‘mysql’,
             ‘host’ => ‘db4free.net’,
             ‘port’ => ‘3306’,
             ‘database’ => db_ole,
             ‘username’ => ole_rpl2,
-            ‘password’ =>ole009988,
+            ‘password’ =>ole889900,
             ‘charset’ => ‘utf8mb4’,
             ‘collation’ => ‘utf8mb4_unicode_ci’,
             ‘prefix’ => ‘’,
