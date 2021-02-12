@@ -68,7 +68,7 @@ return [
             ‘port’ => ‘3306’,
             ‘database’ => db_ole,
             ‘username’ => ole_rpl2,
-            ‘password’ =>ole889900,
+            ‘password’ =>ole009988,
             ‘charset’ => ‘utf8mb4’,
             ‘collation’ => ‘utf8mb4_unicode_ci’,
             ‘prefix’ => ‘’,
