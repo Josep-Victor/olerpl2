@@ -51,13 +51,13 @@
                     <span class="close">&times;</span>
             </div>
             <div class="modal-body">
-                <p>Hai, {{ Auth::user()->name }} !</p>
+                <p>Hai, <b style="font-size: 32px"> {{ Auth::user()->name }} </b> !</p>
                 <p>Sebelumnya kami ucapkan terimakasih karena sudah menggunakan aplikasi OLE</p>
                 <span></span>
                 <p>Ini adalah data berat badan & tinggi badan kamu yang ada di sistem kami</p>
                 <ul class="list-inline">
                     <li class="list-inline-item">
-                        Berat Badan : <b style="font-size: 32px">{{ Auth::user()->berat_badan }}</b>  kg
+                        Berat Badan : <b style="font-size: 32px">{{ Auth::user()->berat_badan }}</b>  kg,
                     </li>
                     <li class="list-inline-item">
                         Tinggi Badan : <b style="font-size: 32px">{{ Auth::user()->tinggi_badan }}</b>  cm 
@@ -66,6 +66,9 @@
                 <ul class="list-inline">
                     <li class="list-inline-item">
                         Kamu membuat akun pada tanggal <b style="font-size: 32px">{{ Auth::user()->created_at->toDateString() }}</b>
+                    </li>
+                    <li class="list-inline-item">
+                        dan kamu terakhir mengupdate akun pada tanggal <b style="font-size: 32px">{{ Auth::user()->updated_at->toDateString() }}</b>
                     </li>
                 </ul>
             </div>
