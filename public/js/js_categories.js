@@ -11,7 +11,11 @@ $(document).ready(function(){
 
         var beratBadan = parseInt($('.bb').val());
         var tinggiBadan = parseInt($('.tb').val());    
-        var hitung = tinggiBadan - 110;
+        var hitung = Math.abs(tinggiBadan - 110);
+
+        localStorage.setItem("Berat Badan", beratBadan);
+        localStorage.setItem("Tinggi Badan", tinggiBadan);
+
         $('.ideal').replaceWith(hitung);
 
         var skor = Math.abs(beratBadan - hitung);
@@ -25,7 +29,7 @@ $(document).ready(function(){
             $('.kategori').attr('href','Kalender-olahraga2');
         }
 
-        else {
+        else if (skor >= 81){
             $('.kategori').attr('href','Kalender-olahraga3');
         }
 
@@ -35,5 +39,11 @@ $(document).ready(function(){
 
     $('.reset').click(function(){
         location.reload();
+    });
+
+    $('.hitungUlang').click(function(){
+        localStorage.setItem("Tinggi Badan", 0);
+        localStorage.setItem("Berat Badan", 0);
+        localStorage.setItem("kategori", 0);
     });
 });

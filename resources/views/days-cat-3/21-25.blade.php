@@ -1,46 +1,49 @@
 <div class="kolom-lima">
     <div class="row mb-4 ">
-            <a href="#">
                 <div class="col-md">
-                    <div class="card">
-                        <img class="card-img-top" src="img/push-ups.jpg" alt="Card image cap" style="width: 200px;">
+                  <a href="{{ route ('hari21') }}">
+                    <div class="card kalender-1 day-21">
                         <div class="card-body">
-                        <p class="card-text text-center">DAY 21</p>
+                        <p class="card-text text-center kalender-1-card-text">DAY 21</p>
                         </div>
                     </div>
+                  </a>
                 </div>
-            </a>
               <div class="col-md">
-                <div class="card">
-                    <img class="card-img-top" src="img/sit-up.jpg" alt="Card image cap" style="width: 200px;">
+                <a href="{{ route ('hari22') }}">
+                  <div class="card kalender-1 day-22">
                     <div class="card-body">
-                      <p class="card-text text-center">DAY 22</p>
+                      <p class="card-text text-center kalender-1-card-text">DAY 22</p>
                     </div>
                   </div>
+                </a>
               </div>
             <div class="col-md">
-              <div class="card">
-                  <img class="card-img-top" src="img/squat.jpg" alt="Card image cap">
+              <a href="{{ route ('hari23') }}">
+                <div class="card kalender-1 day-23">
                   <div class="card-body">
-                    <p class="card-text text-center">DAY 23</p>
+                    <p class="card-text text-center kalender-1-card-text">DAY 23</p>
                   </div>
                 </div>
+              </a>
             </div>
             <div class="col-md">
-              <div class="card">
-                  <img class="card-img-top" src="img/pull-up.jpg" alt="Card image cap">
+              <a href="{{ route ('hari24') }}">
+                <div class="card kalender-1 day-24">
                   <div class="card-body">
-                    <p class="card-text text-center">DAY 24</p>
+                    <p class="card-text text-center kalender-1-card-text">DAY 24</p>
                   </div>
                 </div>
+              </a>
             </div>
             <div class="col-md">
-              <div class="card">
-                  <img class="card-img-top" src="img/push-ups.jpg" alt="Card image cap">
+              <a href="{{ route ('hari25') }}">
+                <div class="card kalender-1 day-25">
                   <div class="card-body">
-                    <p class="card-text text-center">DAY 25</p>
+                    <p class="card-text text-center kalender-1-card-text">DAY 25</p>
                   </div>
                 </div>
+              </a>
             </div>
         </div>
 </div>

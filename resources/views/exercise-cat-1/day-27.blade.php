@@ -9,7 +9,7 @@
                 <div class="judul">
                     <div class="row pt-5">
                         <div class="col text-center text-white">
-                        <h1>Day 1</h1>
+                        <h1>Day 27</h1>
                         <h3><i>Push-up, Sit-up, Squat, Jumping jack</i></h3>
                         <center><hr color="white" width="200"></hr></center>
                         </div>
@@ -187,7 +187,7 @@
                             </div>
                         </div>
                         <div class="col-md">
-                            <div class="exercise-13">
+                            <div class="exercise-13 final-day-27">
                                 <div class="card">                                    
                                     <img class="card-img-top" src="{{asset('img/heel touch.jpg')}}" alt="Card image cap">
                                     <div class="card-body">

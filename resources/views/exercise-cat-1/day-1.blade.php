@@ -6,7 +6,7 @@
     @section('konten')
         <section id="ole" class="day-one pb-5">
             <div class="container">          
-                <div class="judul">se
+                <div class="judul">
                     <div class="row pt-5">
                         <div class="col text-center text-white">
                         <h1>Day 1</h1>
@@ -19,7 +19,7 @@
                             Mulai
                         </button>
                         <p>
-                            <a href="/Kalender-olahraga1"><h6>Kembali</h6></a>
+                            <a href="{{ route('welcome') }}"><h6>Kembali</h6></a>
                         </p>
                         <div class="waktu"></div>
                     </div>
@@ -32,7 +32,7 @@
                                         <div class="card-body">
                                             <div class="card-text text-center">
                                                 <p class="total-exercise">Push Up x ??</p>
-                                                <p class="total-exercise-active">Push Up x 5</p>
+                                                <p class="total-exercise-active">Push Up x 5 </p>
                                             </div>
                                         </div>
                                     </div>
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                         <div class="col-md">
-                            <div class="exercise-5">
+                            <div class="exercise-5 final-day-1">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/cobra stretch.jpg')}}" alt="Card image cap">
                                     <div class="card-body">

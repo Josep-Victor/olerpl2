@@ -9,7 +9,7 @@
                 <div class="judul">
                     <div class="row pt-5">
                         <div class="col text-center text-white">
-                        <h1>Day 1</h1>
+                        <h1>Day 12</h1>
                         <h3><i>Push-up, Sit-up, Squat, Jumping jack</i></h3>
                         <center><hr color="white" width="200"></hr></center>
                         </div>
@@ -120,7 +120,7 @@
                             </div>
                         </div>
                         <div class="col-md">
-                            <div class="exercise-8">
+                            <div class="exercise-8 final-day-12">
                                 <div class="card">                                    
                                     <img class="card-img-top" src="{{asset('img/rusian twist.webp')}}" alt="Card image cap">
                                     <div class="card-body">

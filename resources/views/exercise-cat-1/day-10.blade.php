@@ -133,7 +133,7 @@
                             </div>
                         </div>
                         <div class="col-md">
-                            <div class="exercise-8">
+                            <div class="exercise-8 final-day-10">
                                 <div class="card">                                    
                                     <img class="card-img-top" src="{{asset('img/russian twist.jpg')}}" alt="Card image cap">
                                     <div class="card-body">

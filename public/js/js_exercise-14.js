@@ -428,6 +428,18 @@ $(document).ready(function(){
     }
     });
 
+    $(".final-day-28").click(function(){
+        localStorage.setItem("Hari28-cat1", 1);
+    });
+    
+    $(".final-day-29").click(function(){
+        localStorage.setItem("Hari29-cat1", 1);
+    });
+
+    $(".final-day-30").click(function(){
+        localStorage.setItem("Hari30-cat1", 1);
+    });
+    
     $('.button-mulai-lagi').click(function(){
         location.reload();
     })

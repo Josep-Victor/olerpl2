@@ -1,6 +1,9 @@
 @extends('master')
     @section('extra-head')
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
+        <script type="text/javascript" src='/js/js_categories.js'></script>
+        <script type="text/javascript" src='/js/js_exercise-5.js'></script>
+        <script type="text/javascript" src='/js/js_complete-cat-1.js'></script>
         @endsection
         @section('konten')
         <section id="ole" class="section-index pb-5">
@@ -9,8 +12,7 @@
                     <div class="row mb-5 pt-5">
                         <div class="col text-center text-white">
                             <h1>Kalender Olahraga</h1>
-                            <h3><i>"Every day is a chance to get better"</i></h3>
-                            <center><hr color="white" width="200"></hr></center>
+                            <h3>Selamat datang kembali, {{ Auth::user()-> name}} !</h3>
                         </div>
                     </div>
                 </div>
@@ -21,6 +23,13 @@
                 @include('days-cat-1.16-20')
                 @include('days-cat-1.21-25')
                 @include('days-cat-1.26-30')
+                <span></span>
+                <center>
+                        <h3><i>"Every day is a chance to get better"</i></h3>
+                        <button type="button" class="resetDay-cat1">
+                            Reset Kalender
+                        </button>
+                </center>
             </div>
         </section>
         @endsection

@@ -157,7 +157,19 @@ $(document).ready(function(){
             alert("selesaikan dulu latihan sebelumnya!");
     }
     });
+    
+    $(".final-day-1").click(function(){
+        localStorage.setItem("Hari1-cat1", 1);
+    });
+    
+    $(".final-day-2").click(function(){
+        localStorage.setItem("Hari2-cat1", 1);
+    });
 
+    $(".final-day-3").click(function(){
+        localStorage.setItem("Hari3-cat1", 1);
+    });
+    
     $('.button-mulai-lagi').click(function(){
         location.reload();
     })

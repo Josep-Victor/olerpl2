@@ -20,6 +20,9 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'berat_badan',
+        'tinggi_badan',
+        'kategori'
     ];
 
     /**
@@ -40,4 +43,8 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public static function skor($bb, $tb){
+        return $skor = $bb - ($tb-110);
+    }
 }

@@ -10,7 +10,7 @@
                 <div class="judul">
                     <div class="row pt-5">
                         <div class="col text-center text-white">
-                        <h1>Day 1</h1>
+                        <h1>Day 3</h1>
                         <h3><i>Push-up, Sit-up, Squat, Star Jump, Cobra Stretch</i></h3>
                         <center><hr color="white" width="200"></hr></center>
                         </div>
@@ -80,7 +80,7 @@
                             </div>
                         </div>
                         <div class="col-md">
-                            <div class="exercise-5">
+                            <div class="exercise-5 final-day-3">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/cobra stretch.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
