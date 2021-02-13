@@ -9,6 +9,8 @@
       <div class="modal-body">
             <center>
             @php 
+                use App\Models\History;
+
                 $today = \Carbon\Carbon::now('Asia/Jakarta');
                 $interval = Auth::user()->created_at->diff($today);
                 $hari = $interval->format('%a');
