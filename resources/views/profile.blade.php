@@ -12,7 +12,7 @@
                 $today = \Carbon\Carbon::now('Asia/Jakarta');
                 $interval = Auth::user()->created_at->diff($today);
                 $hari = $interval->format('%a');
-                $histories = \App\Models\History::where('id_user', Auth::user()->id)->get();
+                $histories = History::where('id_user', Auth::user()->id)->get();
                 $jumlah = $histories->count();
             @endphp
             <p>Hari, {{ Auth::user()->name }} !</p>
