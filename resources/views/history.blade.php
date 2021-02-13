@@ -12,7 +12,7 @@
             //gini juga ga baik karena ada logical yang harusnya di controller tapi di view. 
             //maneh bisa pake view compose tapi ribet kalo memang mau ngikutin design pattern laravel
             //atau ga ini kan history nya di modal atau terpisah gitu, pakein ajax jadi history nanti manggil api ke laravel itu sendiri untuk ngambil data aja. ini boleh meringankan sedikit beban erja juga
-            $histories = \App\Models\History::where('id_user', Auth::user()->id)->get();
+            $histories = App\Models\History::where('id_user', Auth::user()->id)->get();
             $jumlah = $histories->count();
             $no = 1;
             @endphp
