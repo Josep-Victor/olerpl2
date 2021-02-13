@@ -107,7 +107,10 @@
                     <div class="penutup">
                         selamat!
                         Kamu telah menyelesaikan olahraga hari ini
-                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <form action="{{ route('inputHistoryDay1') }}" >
+                            <button type="submit" class="button-mulai-lagi">Mulai Lagi</button>
+                            <button type="submit" class="selesai">Selesai</button>
+                        </form>
                     </div>
                 </div>
             </div>

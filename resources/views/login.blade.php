@@ -28,8 +28,6 @@
                 </div>
             </div>
         </section>
-
-        
         <div class="container">
             <div class="col-md-4 offset-md-4 mt-5">
                 <div class="card-header">

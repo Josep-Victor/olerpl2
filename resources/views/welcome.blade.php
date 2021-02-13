@@ -20,16 +20,7 @@
                     <div class="row mb-5">
                             <div class="col text-center text-white">
                                 <a href="{{ route('logout') }}" class="btn btn-danger">Logout</a>
-                                <a href="<?php if(Auth::user()->kategori == 1){
-                                        return redirect()->route('kategori1');
-                                    }
-                                    else if (Auth::user()->kategori == 2){
-                                        return redirect()->route('kategori2');
-                                    }
-                                    else if (Auth::user()->kategori == 3){
-                                        return redirect()->route('kategori3');
-                                    }
-                                    ?>" class="btn btn-danger">Mulai</a>
+                                <a href="{{ route('logout') }}" class="btn btn-danger">Mulai</a>
                             </div>
                     </div>
                 </div>

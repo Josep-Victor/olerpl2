@@ -11,20 +11,12 @@ class history extends Model
     protected $table = 'history';
 
     public $fillable = [
-        'id_history', 'id_user', 'id_hari', 'status'
+        'id_user', 'hari', 'status'
     ];
-    
-    protected $primaryKey = 'id_history';
-    
-    protected $keyType = 'int';
-    
-    public $incrementing = false;
 
-    public function user() {
-        return $this->belongsTo(related:'App\Model\User', foreignKey: 'id_user' ); 
-    }
+    protected $casts = [
+        'date' => 'datetime',
+    ];
 
-    public function hari() {
-        return $this->belongsTo(related:'App\Model\hari', foreignKey: 'id_hari');
-    }
+    public $timestamps = false;
 }
