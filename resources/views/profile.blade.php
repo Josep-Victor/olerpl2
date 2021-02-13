@@ -8,13 +8,13 @@
       </div>
       <div class="modal-body">
             <center>
-            <?php 
+            @php 
                 $today = \Carbon\Carbon::now('Asia/Jakarta');
                 $interval = Auth::user()->created_at->diff($today);
                 $hari = $interval->format('%a');
                 $histories = App\Models\History::where('id_user', Auth::user()->id)->get();
                 $jumlah = $histories->count();
-            ?>
+            @endphp
             <p>Hari, {{ Auth::user()->name }} !</p>
             <p>Terima kasih sudah menggunakan aplikasi kami, ini adalah data akun kamu :)</p>
             <p>
