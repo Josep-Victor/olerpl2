@@ -3,7 +3,7 @@
 namespace App\Http\View\Composers;
 
 use Illuminate\View\View;
-use App\Models\History;
+use app\Models\History;
 use Illuminate\Support\Facades\Auth;
 
 class HistoryComposer
