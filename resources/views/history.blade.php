@@ -9,14 +9,10 @@
       <div class="modal-body">    
         <center>
             @php
-            //gini juga ga baik karena ada logical yang harusnya di controller tapi di view. 
-            //maneh bisa pake view compose tapi ribet kalo memang mau ngikutin design pattern laravel
-            //atau ga ini kan history nya di modal atau terpisah gitu, pakein ajax jadi history nanti manggil api ke laravel itu sendiri untuk ngambil data aja. ini boleh meringankan sedikit beban erja juga
-            $histories = \App\Models\History::where('id_user', Auth::user()->id)->get();
-            $jumlah = $histories->count();
+            foreach($history as $histories){
+                $jumlah = $histories->count();
+            }
             $no = 1;
-            @endphp
-            <?php 
                 if($jumlah >= 1 ){
                     echo"<h5>kamu telah berolahraga selama $jumlah hari, yuk tingkatkan lagi demi tubuh yang sehat :D</h5>";
                     echo "<br>";
@@ -26,20 +22,19 @@
                         echo "<th width='100px'>Hari</th>";
                         echo "<th width='200px'>Tanggal diselesaikan</th>";
                     echo "</tr>";
-                    foreach($histories as $history){
                     echo "<tr>";
+                    foreach($history as $histories){
                         echo "<td> $no </td>";
-                        echo "<td> $history->hari </td>";
-                        echo "<td> $history->date </td>";
+                        echo "<td> $histories->hari </td>";
+                        echo "<td> $histories->date </td>";
                     echo "</tr>";
-
                     $no++;
                     }
                     echo "</table>";
                 } else if ($jumlah == 0){
                     echo"<h5> Kamu belum berolahraga, yuk mulai olahraga dengan mengklik pilihan hari! </h5>";  
                 }
-            ?>
+            @endphp
         </center>
       </div>
       <div class="modal-footer">
