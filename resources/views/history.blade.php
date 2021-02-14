@@ -9,12 +9,8 @@
       <div class="modal-body">    
         <center>
             @php
-            foreach($history as $histories){
-                $jumlah = $histories->count();
-            }
             $no = 1;
-                if($jumlah >= 1 ){
-                    echo"<h5>kamu telah berolahraga selama $jumlah hari, yuk tingkatkan lagi demi tubuh yang sehat :D</h5>";
+                    echo"<h5>kamu telah berolahraga selama hari, yuk tingkatkan lagi demi tubuh yang sehat :D</h5>";
                     echo "<br>";
                     echo "<table border='1' style='color: #7b2325;'>";
                     echo "<tr>";
@@ -29,11 +25,8 @@
                         echo "<td> $histories->date </td>";
                     echo "</tr>";
                     $no++;
-                    }
                     echo "</table>";
-                } else if ($jumlah == 0){
-                    echo"<h5> Kamu belum berolahraga, yuk mulai olahraga dengan mengklik pilihan hari! </h5>";  
-                }
+                } 
             @endphp
         </center>
       </div>
