@@ -19,12 +19,14 @@
                         echo "<th>No.</th>";
                         echo "<th width='100px'>Hari</th>";
                         echo "<th width='200px'>Tanggal diselesaikan</th>";
+                        echo "<th width='200px'>Waktu Penyelesaian</th>";
                     echo "</tr>";
                     echo "<tr>";
                     foreach($history as $histories){
                         echo "<td> $no </td>";
                         echo "<td> $histories->hari </td>";
                         echo "<td> $histories->date </td>";
+                        echo "<td> $histories->time </td>";
                     echo "</tr>";
                     $no++;
                     }

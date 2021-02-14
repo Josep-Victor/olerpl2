@@ -5,7 +5,7 @@
     }
     
     function pad2(number) {
-         return (number < 10 ? '0' : '') + number;
+         return (number < 10 ? '0':'') + number;
     }
 
     function defaultFormatMilliseconds(millis) {
@@ -20,7 +20,7 @@
         hours = Math.floor(x % 24);
         // x /= 24;
         // days = Math.floor(x);
-       return [pad2(hours), pad2(minutes), pad2(seconds)].join(' : ');
+       return [pad2(hours), pad2(minutes), pad2(seconds)].join(':');
     }
 
     //NOTE: This is a the 'lazy func def' pattern described at http://michaux.ca/articles/lazy-function-definition-pattern
@@ -44,7 +44,7 @@
             var defaults = {
                 updateInterval: 10,
                 startTime: 0,
-                format: '{HH}:{MM}:{SS}',
+                format: 'HH:MM:SS',
                 formatter: formatMilliseconds
             };
             

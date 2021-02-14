@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 
 class HistoryController extends Controller
 {
-    public function MasukkanHistoryDay1(){
+    public function MasukkanHistoryDay1(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 1";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -19,6 +19,7 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');

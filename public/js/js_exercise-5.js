@@ -10,7 +10,6 @@ $(document).ready(function(){
         });
 
         $('.waktu').stopwatch({format:'{MM}:{ss}'}).stopwatch('start');
-
         exerciseStart = true;
         $('.exercise-1 .total-exercise').replaceWith($('.exercise-1 .total-exercise-active').text());
         
@@ -148,9 +147,9 @@ $(document).ready(function(){
                 opacity: 0.5
             });
             $(".waktu").stopwatch({format:'{MM}:{ss}'}).stopwatch('stop');
-            $(".penutup").addClass('penutup-active');
-            $(".day-one").addClass('day-one-penutup');
             $(".preview").hide();
+            var waktu = $('.waktu').html();
+            $('#timer').val(waktu);
         }
 
         else {

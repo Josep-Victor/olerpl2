@@ -11,12 +11,12 @@ class Histories extends Model
     protected $table = 'history';
 
     public $fillable = [
-        'id_user', 'hari', 'status'
+        'id_user', 'hari', 'status', 'time'
     ];
 
     protected $casts = [
         'date' => 'datetime',
     ];
-
+    
     public $timestamps = false;
 }
