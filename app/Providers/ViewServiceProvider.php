@@ -26,7 +26,9 @@ class ViewServiceProvider extends ServiceProvider
     public function boot()
     {
         // Using class based composers...
-        View::composer('history', HistoryComposer::class);
+        View::composer(
+            ['history', 'profile'],
+             HistoryComposer::class);
 
     }
 }
