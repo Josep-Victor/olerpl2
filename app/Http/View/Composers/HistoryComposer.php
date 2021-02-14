@@ -18,7 +18,7 @@ class HistoryComposer
     {
         $id_user = Auth::user()->id;
         
-        $histories = History::where('id_user', $id_user)->get();
+        $histories = Histories::where('id_user', $id_user)->get();
         $view->with('history', $histories );
     }
 }
