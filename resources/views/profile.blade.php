@@ -16,9 +16,6 @@
                 $berat_badan = Auth::user()->berat_badan;
                 $tinggi_badan = Auth::user()->tinggi_badan;
                 $hari = $interval->format('%a');
-                foreach($history as $histories){
-                    $jumlah = $histories->count();
-                }
             echo "<p>Hari, {{ Auth::user()->name }} !</p>";
             echo "<p>Terima kasih sudah menggunakan aplikasi kami, ini adalah data akun kamu :)</p>";
             echo "<p>";
@@ -32,10 +29,6 @@
             echo "<p>";
                 echo "<i class='fas fa-ruler-vertical' style='font-size:36px'></i>";
                 echo "<b style='font-size: 24px;'>Tinggi badan kamu sekarang $tinggi_badan cm &#127881;</b>";
-            echo "</p>";
-            echo "<p>";
-                echo "<i class='fas fa-trophy' style='font-size:36px'></i>";
-                echo "<b style='font-size: 24px;''> dan kamu sudah menyelesaikan $jumlah olahraga &#127881; </b>";
             echo "</p>";
             @endphp
             </center>
