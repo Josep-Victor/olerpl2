@@ -19,7 +19,7 @@
                             Mulai
                         </button>
                         <p>
-                            <a href="/Kalender-olahraga1"><h6>Kembali</h6></a>
+                            <a href="{{ route('welcome') }}"><h6>Kembali</h6></a>
                         </p>
                         <div class="waktu"></div>
                     </div>
@@ -227,7 +227,10 @@
                     <div class="penutup">
                         selamat!
                         Kamu telah menyelesaikan olahraga hari ini
-                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <form action="{{ route('inputHistoryDay23') }}" >
+                            <button type="submit" class="button-mulai-lagi">Mulai Lagi</button>
+                            <button type="submit" class="selesai">Selesai</button>
+                        </form>
                     </div>
                 </div>
             </div>

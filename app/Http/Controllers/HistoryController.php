@@ -14,7 +14,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -30,7 +30,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -46,7 +46,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -62,7 +62,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -78,7 +78,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -94,7 +94,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -110,7 +110,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -126,7 +126,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -142,7 +142,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -158,7 +158,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -174,7 +174,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -190,7 +190,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -206,7 +206,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -222,7 +222,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -238,7 +238,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -254,7 +254,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -270,7 +270,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -286,7 +286,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -302,7 +302,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -318,7 +318,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -334,7 +334,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -350,7 +350,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -366,7 +366,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -382,7 +382,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -398,7 +398,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -414,7 +414,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -430,7 +430,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -446,7 +446,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -462,7 +462,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;
@@ -478,7 +478,7 @@ class HistoryController extends Controller
         $date = \Carbon\Carbon::now('Asia/Jakarta');
         $status = "Selesai";
 
-        $history = new History;
+        $history = new Histories;
         $history->id_user = $id_user;
         $history->hari = $hari;
         $history->date = $date;

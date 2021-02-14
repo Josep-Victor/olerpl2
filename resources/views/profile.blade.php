@@ -16,7 +16,8 @@
                 $berat_badan = Auth::user()->berat_badan;
                 $tinggi_badan = Auth::user()->tinggi_badan;
                 $hari = $interval->format('%a');
-            echo "<p>Hari, {{ Auth::user()->name }} !</p>";
+                $name = Auth::user()->name;
+            echo "<p>Hai, $name !</p>";
             echo "<p>Terima kasih sudah menggunakan aplikasi kami, ini adalah data akun kamu :)</p>";
             echo "<p>";
                 echo "<i class='far fa-calendar-alt' style='font-size:36px'></i>"; 

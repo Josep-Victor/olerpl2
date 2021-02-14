@@ -19,7 +19,7 @@
                             Mulai
                         </button>
                         <p>
-                            <a href="/Kalender-olahraga1"><h6>Kembali</h6></a>
+                            <a href="{{ route('welcome') }}"><h6>Kembali</h6></a>
                         </p>
                         <div class="waktu"></div>
                     </div>
@@ -109,7 +109,7 @@
                         <div class="col-md">
                             <div class="exercise-7">
                                 <div class="card">
-                                    <img class="card-img-top" src="{{asset('img/Lunges.jpg'')}}" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset('img/Lunges.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Lunges ??</p>
@@ -163,7 +163,10 @@
                     <div class="penutup">
                         selamat!
                         Kamu telah menyelesaikan olahraga hari ini
-                        <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                        <form action="{{ route('inputHistoryDay11') }}" >
+                            <button type="submit" class="button-mulai-lagi">Mulai Lagi</button>
+                            <button type="submit" class="selesai">Selesai</button>
+                        </form>
                     </div>
                 </div>
             </div>
