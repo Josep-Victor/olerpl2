@@ -25,7 +25,7 @@ class HistoryController extends Controller
         return redirect()->route('welcome');
     }
 
-    public function MasukkanHistoryDay2(){
+    public function MasukkanHistoryDay2(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 2";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -36,12 +36,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay3(){
+    public function MasukkanHistoryDay3(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 3";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -52,12 +53,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay4(){
+    public function MasukkanHistoryDay4(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 4";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -68,12 +70,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay5(){
+    public function MasukkanHistoryDay5(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 5";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -84,12 +87,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay6(){
+    public function MasukkanHistoryDay6(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 6";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -100,12 +104,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay7(){
+    public function MasukkanHistoryDay7(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 7";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -116,12 +121,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay8(){
+    public function MasukkanHistoryDay8(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 8";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -132,12 +138,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay9(){
+    public function MasukkanHistoryDay9(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 9";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -148,12 +155,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay10(){
+    public function MasukkanHistoryDay10(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 10";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -164,12 +172,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay11(){
+    public function MasukkanHistoryDay11(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 11";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -180,12 +189,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay12(){
+    public function MasukkanHistoryDay12(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 12";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -196,12 +206,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay13(){
+    public function MasukkanHistoryDay13(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 13";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -212,12 +223,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay14(){
+    public function MasukkanHistoryDay14(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 14";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -228,12 +240,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay15(){
+    public function MasukkanHistoryDay15(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 15";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -244,12 +257,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay16(){
+    public function MasukkanHistoryDay16(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 16";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -260,12 +274,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay17(){
+    public function MasukkanHistoryDay17(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 17";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -276,12 +291,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay18(){
+    public function MasukkanHistoryDay18(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 18";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -292,12 +308,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay19(){
+    public function MasukkanHistoryDay19(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 19";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -308,12 +325,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay20(){
+    public function MasukkanHistoryDay20(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 20";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -324,12 +342,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay21(){
+    public function MasukkanHistoryDay21(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 21";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -340,12 +359,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay22(){
+    public function MasukkanHistoryDay22(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 22";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -356,12 +376,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay23(){
+    public function MasukkanHistoryDay23(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 23";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -372,12 +393,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay24(){
+    public function MasukkanHistoryDay24(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 24";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -388,12 +410,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay25(){
+    public function MasukkanHistoryDay25(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 25";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -404,12 +427,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay26(){
+    public function MasukkanHistoryDay26(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 26";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -420,12 +444,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay27(){
+    public function MasukkanHistoryDay27(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 27";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -436,12 +461,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay28(){
+    public function MasukkanHistoryDay28(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 28";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -452,12 +478,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay29(){
+    public function MasukkanHistoryDay29(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 29";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -468,12 +495,13 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
     }
     
-    public function MasukkanHistoryDay30(){
+    public function MasukkanHistoryDay30(Request $request){
         $id_user = Auth::user()->id ;
         $hari = "Hari 30";
         $date = \Carbon\Carbon::now('Asia/Jakarta');
@@ -484,6 +512,7 @@ class HistoryController extends Controller
         $history->hari = $hari;
         $history->date = $date;
         $history->status = $status;
+        $history->time = (string)$request->time;
         $history->save();
 
         return redirect()->route('welcome');
