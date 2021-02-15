@@ -120,6 +120,13 @@
         -ms-transition: none !important;
         transition: none !important;
     }
+    .judul h1{
+        font-size : 30px;
+    }
+
+    .judul h3{
+        font-size: 30px;
+    }
     .header-right{
         visibility: hidden;
     }
@@ -138,13 +145,13 @@
     .section-index .card  {
         margin-top: 10px;
         height: 50px;
-        width: 52px;
+        width: 50px;
     }
 
     .section-index .kalender-1-card-text{
         margin-top: 20px; 
         margin-left: -20px;
-        width: 52px;
+        width: 50px;
         font-size: 8px;
     }
 
