@@ -133,7 +133,7 @@
 
     .header-left {
         margin-top: 15px;
-        margin-left: 25px;
+        margin-left: 20px;
         display: inline-block;
     }
 
@@ -145,13 +145,13 @@
     .section-index .card  {
         margin-top: 10px;
         height: 50px;
-        width: 50px;
+        width: 48px;
     }
 
     .section-index .kalender-1-card-text{
         margin-top: 20px; 
         margin-left: -20px;
-        width: 50px;
+        width: 48px;
         font-size: 8px;
     }
 
