@@ -251,33 +251,25 @@ body {
 }
 
 .kolom-tiga {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
-}
-
-.kolom-empat {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
-}
-
-.kolom-lima {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
-}
-
-.kolom-enam {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0s, opacity 0.5s linear;
-}
-
-.kolom-active {
     visibility: visible;
     opacity: 1;
 }
+
+.kolom-empat {
+    visibility: visible;
+    opacity: 1;
+}
+
+.kolom-lima {
+    visibility: visible;
+    opacity: 1;
+}
+
+.kolom-enam {
+    visibility: visible;
+    opacity: 1;
+}
+
 
 footer {
     text-align: center;

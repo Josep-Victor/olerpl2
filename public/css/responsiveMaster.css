@@ -120,13 +120,6 @@
         -ms-transition: none !important;
         transition: none !important;
     }
-    .judul h1{
-        font-size : 30px;
-    }
-
-    .judul h3{
-        font-size: 30px;
-    }
     .header-right{
         visibility: hidden;
     }
@@ -168,14 +161,6 @@
         -o-transition: none !important;
         -ms-transition: none !important;
         transition: none !important;
-    }
-    
-    .judul h1{
-        font-size : 35px;
-    }
-
-    .judul h3{
-        font-size: 35px;
     }
     .header h2{
         font-size: 25px;
