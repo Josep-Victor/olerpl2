@@ -27,15 +27,14 @@
                 </center>
             </div>
         </section>
-            <a href="http://livetrafficfeed.com" data-num="10" data-width="210" 
-            data-responsive="0" data-time="America%2FNew_York" data-root="0" 
-            data-cheader="2853a8" data-theader="ffffff" data-border="2853a8" 
-            data-background="ffffff" data-normal="000000" data-link="135d9e" 
-            target="_blank" id="LTF_live_website_visitor">
-                Visitor Counter
+        <center>
+            <a href="https://livetrafficfeed.com/website-counter" data-time="America%2FNew_York" 
+            data-root="0" id="LTF_counter_href">
+                Website Counter
             </a>
-            <script type="text/javascript" src="//cdn.livetrafficfeed.com/static/v4/live.js"></script>
+            <script type="text/javascript" src="//cdn.livetrafficfeed.com/static/static-counter/live.v2.js"></script>
             <noscript>
-                <a href="http://livetrafficfeed.com">Visitor Counter</a>
+                <a href="https://livetrafficfeed.com/website-counter">Website Counter</a>
             </noscript>
+        </center>
         @endsection
