@@ -30,11 +30,26 @@ class DaftarOlahragaComposer
             $view->with('pushup', $jumlahPushup3 );
         }
 
-        $jumlahSitup = DaftarOlahraga::where('nama_olahraga', 'Sit Up')->get('jumlah');
-        $view->with('situp', $jumlahSitup);
-
-        $jumlahSquat = DaftarOlahraga::where('nama_olahraga', 'Squat')->get('jumlah');
-        $view->with('squat', $jumlahSquat);
+        $jumlahSitup = DaftarOlahraga::where('nama_olahraga', 'Sit Up')->value('jumlah');
+        if ($kategori == 1){
+            $view->with('situp', $jumlahSitup);
+        } else if ($kategori == 2){
+            $jumlahSitup2 = $jumlahSitup + 2;
+            $view->with('situp', $jumlahSitup2);
+        } else if ($kategori == 3){
+            $jumlahSitup3 = $jumlahSitup + 2;
+            $view->with('situp', $jumlahSitup3);
+        }
+        $jumlahSquat = DaftarOlahraga::where('nama_olahraga', 'Squat')->value('jumlah');
+        if ($kategori == 1){
+            $view->with('squat', $jumlahSquat);
+        } else if ($kategori == 2){
+            $jumlahSquat2 = $jumlahSquat + 2;
+            $view->with('squat', $jumlahSquat2);
+        } else if ($kategori == 3){
+            $jumlahSquat3 = $jumlahSquat + 2;
+            $view->with('squat', $jumlahSquat3);
+        }
 
         $jumlahStarJump = DaftarOlahraga::where('nama_olahraga', 'Star Jump')->get('jumlah');
         $view->with('starjump', $jumlahStarJump);

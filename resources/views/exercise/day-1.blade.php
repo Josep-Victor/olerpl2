@@ -47,9 +47,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Sit Up x ??</p>
-                                            @foreach($situp as $jml_situp)
-                                            <p class="total-exercise-active">Sit Up x {{ $jml_situp->jumlah }} </p>
-                                            @endforeach
+                                            <p class="total-exercise-active">Sit Up x {{ $situp }} </p>
                                         </div>
                                     </div>
                                 </div>
@@ -62,9 +60,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Squat x ??</p>
-                                            @foreach($squat as $jml_squat)
-                                            <p class="total-exercise-active">Squat x  {{ $jml_squat->jumlah }}</p>
-                                            @endforeach
+                                            <p class="total-exercise-active">Squat x  {{ $squat }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -123,14 +119,14 @@
                           <h1>SELESAI</h1>
                       </div>
                       <div class="modal-body">
-                        <center>
                         <form action="{{ route('inputHistoryDay1') }}" >
+                        <center>
                         <p>Selamat!</p>
                         <p>Kamu telah menyelesaikan olahraga hari 1 dengan waktu 
                         <input type="text" id="timer" name="time" class="form-control" style="width: 200px; text-align: center;"></p>
                         <p>Jangan lupa tekan tombol selesai untuk menyimpan hasil & jangan lupa untuk berolahraga lagi besok &#128513;</p>
-                            <button type="submit" class="button-mulai-lagi">Mulai Lagi</button>
-                            <button type="submit" class="selesai">Selesai</button>
+                            <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
+                                <button type="submit" class="selesai">Selesai</button>
                             </form>
                         </center>
                       </div>

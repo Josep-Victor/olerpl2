@@ -108,7 +108,7 @@
                         <div class="col-md">
                             <div class="exercise-6">
                                 <div class="card">
-                                    <img class="card-img-top" src="{{asset('img/Mountain C..jpg')}}" alt="Card image cap">
+                                    <img class="card-img-top" src="{{asset('img/mountain climber.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Mountain C. x ??</p>
