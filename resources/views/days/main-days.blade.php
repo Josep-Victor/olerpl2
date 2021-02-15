@@ -28,7 +28,7 @@
             </div>
         </section>
         <center>
-            <a href="https://livetrafficfeed.com/website-counter" data-time="America%2FNew_York" 
+            <a href="https://livetrafficfeed.com/website-counter" data-time="Asia%2FJakarta" 
             data-root="0" id="LTF_counter_href">
                 Website Counter
             </a>
