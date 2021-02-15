@@ -42,4 +42,19 @@
     .header-right{
         visibility: hidden;
     }
+    
+    .header-left {
+        margin-top: 15px;
+        display: inline-block;
+    }
+
+    .header-left h2 {
+        font-size: 24px;
+        letter-spacing: 0;
+        margin-left: 0px;
+    }
+
+    .section-index .card{
+        margin: 20px 100px; 
+    }
   }  
