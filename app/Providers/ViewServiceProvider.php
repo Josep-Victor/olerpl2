@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Http\View\Composers\HistoryComposer;
+use App\Http\View\Composers\DaftarOlahragaComposer;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -29,6 +30,9 @@ class ViewServiceProvider extends ServiceProvider
         View::composer(
             ['history', 'profile'],
              HistoryComposer::class);
-
+        
+        View::composer(
+            ['exercise.day-1', 'exercise.day-2'],
+            DaftarOlahragaComposer::Class);
     }
 }
