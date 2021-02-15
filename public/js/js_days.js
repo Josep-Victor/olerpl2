@@ -30,7 +30,7 @@ $(function() {
 
 $(function() {
     $(window).on("scroll", function() {
-        if($(window).scrollTop() > 500) {
+        if($(window).scrollTop() > 400) {
             $(".kolom-lima").addClass("kolom-active");
         } else {
            $(".kolom-lima").removeClass("kolom-active");
@@ -40,7 +40,7 @@ $(function() {
 
 $(function() {
     $(window).on("scroll", function() {
-        if($(window).scrollTop() > 700) {
+        if($(window).scrollTop() > 500) {
             $(".kolom-enam").addClass("kolom-active");
         } else {
            $(".kolom-enam").removeClass("kolom-active");
