@@ -41,7 +41,7 @@
     .section-index .card  {
         margin-top: 10px;
         height: 50px;
-        width: 34px;
+        max-width: 34px;
     }
 
     .section-index .kalender-1-card-text{
@@ -87,13 +87,13 @@
     .section-index .card  {
         margin-top: 10px;
         height: 50px;
-        width: 45px;
+        width: 42px;
     }
 
     .section-index .kalender-1-card-text{
         margin-top: 20px; 
         margin-left: -20px;
-        width: 45px;
+        width: 42px;
         font-size: 8px;
     }
 
@@ -129,13 +129,13 @@
     .section-index .card  {
         margin-top: 10px;
         height: 50px;
-        width: 55px;
+        width: 52px;
     }
 
     .section-index .kalender-1-card-text{
         margin-top: 20px; 
         margin-left: -20px;
-        width: 55px;
+        width: 52px;
         font-size: 8px;
     }
 

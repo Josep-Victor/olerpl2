@@ -20,7 +20,7 @@ $(function() {
 
 $(function() {
     $(window).on("scroll", function() {
-        if($(window).scrollTop() > 300) {
+        if($(window).scrollTop() > 200) {
             $(".kolom-empat").addClass("kolom-active");
         } else {
            $(".kolom-empat").removeClass("kolom-active");
@@ -30,7 +30,7 @@ $(function() {
 
 $(function() {
     $(window).on("scroll", function() {
-        if($(window).scrollTop() > 400) {
+        if($(window).scrollTop() > 300) {
             $(".kolom-lima").addClass("kolom-active");
         } else {
            $(".kolom-lima").removeClass("kolom-active");
@@ -40,7 +40,7 @@ $(function() {
 
 $(function() {
     $(window).on("scroll", function() {
-        if($(window).scrollTop() > 500) {
+        if($(window).scrollTop() > 400) {
             $(".kolom-enam").addClass("kolom-active");
         } else {
            $(".kolom-enam").removeClass("kolom-active");
