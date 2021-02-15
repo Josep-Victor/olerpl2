@@ -55,6 +55,7 @@
         @yield('konten')
 
         <footer>
+            <h3 style="font-family: DancingScript;"><i>"Every day is a chance to get better"</i></h3>
             <h3>Designed by OLE Team.</h3>
         </footer>
     </body>
