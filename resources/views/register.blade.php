@@ -84,6 +84,16 @@
                     </div>
             </div>
         <footer>
+            <center>
+                <a href="https://livetrafficfeed.com/website-counter" data-time="Asia%2FJakarta" 
+                data-root="0" id="LTF_counter_href">
+                    Website Counter
+                </a>
+                <script type="text/javascript" src="//cdn.livetrafficfeed.com/static/static-counter/live.v2.js"></script>
+                <noscript>
+                    <a href="https://livetrafficfeed.com/website-counter">Website Counter</a>
+                </noscript>
+            </center>
             <h3>Designed by OLE Team.</h3>
         </footer>
     </body>
