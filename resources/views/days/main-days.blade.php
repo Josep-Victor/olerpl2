@@ -23,7 +23,7 @@
                 @include('days.26-30')
                 <span></span>
                 <center>
-                        <h3><i>"Every day is a chance to get better"</i></h3>
+                        <h3 style="font-family: DancingScript;"><i>"Every day is a chance to get better"</i></h3>
                 </center>
             </div>
         </section>

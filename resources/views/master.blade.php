@@ -17,7 +17,7 @@
         <section id="ole-header" class="ole-header pb-5">
             <div class="header">
                 <div class="container">
-                    <div class="header-left">
+                    <div class="header-left col-320 col-375 col-425">
                         <ul class="list-inline">
                             <li class="list-inline-item">
                                 <a href="{{ route('welcome') }}">

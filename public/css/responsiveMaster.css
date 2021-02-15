@@ -1,60 +1,131 @@
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) and (min-width: 0px) {
     .header-right{
         visibility: hidden;
     }
 
     .header-left {
+        margin-top: 15px;
+        margin-left: 15px;
         display: inline-block;
     }
 
     .header-left h2 {
-        font-size: 24px;
-        letter-spacing: 0;
-        margin-left: 0px;
+        font-size: 12px;
+        margin-left: 10px;
     }
 
-    .section-index .card{
-        margin: 20px 50px; 
+    .section-index .card  {
+        margin-top: 10px;
+        height: 50px;
+        width: 34px;
+    }
+
+    .section-index .kalender-1-card-text{
+        margin-top: 20px; 
+        margin-left: -20px;
+        width: 34px;
+        font-size: 8px;
+    }
+
+    .section-index .card-img-top {
+        padding: 0px;
+        filter: none;
+    } 
+
+    .list-inline-item a:hover{
+        letter-spacing: 0rem;
     }
   }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 375px) and (min-width:321px) {
     .header-right{
         visibility: hidden;
     }
 
-    .header-left {
-        display: inline-block;
-    }
-
-    .header-left h2 {
-        font-size: 24px;
-        letter-spacing: 0;
-        margin-left: 0px;
-    }
-
-    .section-index .card{
-        margin: 20px 70px; 
-    }
-  }  
-
-@media only screen and (max-width: 425px) {
-    .header-right{
-        visibility: hidden;
-    }
-    
     .header-left {
         margin-top: 15px;
+        margin-left: 25px;
         display: inline-block;
     }
 
     .header-left h2 {
-        font-size: 24px;
-        letter-spacing: 0;
-        margin-left: 0px;
+        font-size: 15px;
+        margin-left: 10px;
     }
 
-    .section-index .card{
-        margin: 20px 100px; 
+    .section-index .card  {
+        margin-top: 10px;
+        height: 50px;
+        width: 45px;
+    }
+
+    .section-index .kalender-1-card-text{
+        margin-top: 20px; 
+        margin-left: -20px;
+        width: 45px;
+        font-size: 8px;
+    }
+
+    .section-index .card-img-top {
+        padding: 0px;
+        filter: none;
     }
   }  
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+    .header-right{
+        visibility: hidden;
+    }
+
+    .header-left {
+        margin-top: 15px;
+        margin-left: 25px;
+        display: inline-block;
+    }
+
+    .header-left h2 {
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .section-index .card  {
+        margin-top: 10px;
+        height: 50px;
+        width: 55px;
+    }
+
+    .section-index .kalender-1-card-text{
+        margin-top: 20px; 
+        margin-left: -20px;
+        width: 55px;
+        font-size: 8px;
+    }
+
+    .section-index .card-img-top {
+        padding: 0px;
+        filter: none;
+    }
+  }  
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+    .header h2{
+        font-size: 25px;
+    }
+
+    .header-left, .header-right {
+        margin-top: 10px
+    }
+
+    .section-index .card  {
+        margin-top: 10px;
+        height: 150px;
+        width: 123px;
+    }
+
+    .section-index .kalender-1-card-text{
+        margin-top: 50px; 
+        margin-left: 5px;
+        width: 70px;
+        font-size: 12px;
+    }
+}

@@ -11,6 +11,10 @@
     .header-left h2 {
         font-size: 48px;
     }
+
+    .col {
+        margin-left: 20px;
+    }
   }
 
 @media only screen and (max-width: 375px) {
