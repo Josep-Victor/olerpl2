@@ -32,7 +32,7 @@
                     }
                     echo "</table>";
                 } else if ($jumlah == 0){
-                    echo"<h5> Kamu belum berolahraga, yuk mulai olahraga dengan mengklik pilihan hari! </h5>";  
+                    echo"<h5> History kamu masih kosong karena kamu belum mulai berolahraga, yuk mulai olahraga dengan mengklik pilihan hari! </h5>";  
                 }
             ?>
         </center>

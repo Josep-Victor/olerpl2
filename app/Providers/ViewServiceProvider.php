@@ -28,7 +28,7 @@ class ViewServiceProvider extends ServiceProvider
     {
         // Using class based composers...
         View::composer(
-            ['history', 'profile'],
+            ['history', 'profile', 'days.reminder'],
              HistoryComposer::class);
         
         View::composer(

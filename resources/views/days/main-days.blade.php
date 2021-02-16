@@ -1,9 +1,17 @@
 @extends('master')
     @section('extra-head')
+        <script>
+            $(window).on('load',function(){
+                if (!localStorage.getItem('shown-modal')){
+                    $('#reminderModal').modal('show');
+                    localStorage.setItem('shown-modal', 'true');
+                }
+            });
+        </script>
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
-        <script type="text/javascript" src='/js/js_categories.js'></script>
         @endsection
         @section('konten')
+        @include('days.reminder')
         <section id="ole" class="section-index pb-5">
             <div class="container">
                 <div class="judul">

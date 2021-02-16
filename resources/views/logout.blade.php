@@ -12,7 +12,7 @@
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <a href="{{ route('logout') }}">
-            <button type="button" class="btn btn-danger">Logout</button>
+            <button type="button" class="btn btn-danger logout">Logout</button>
         </a>
       </div>
     </div>
