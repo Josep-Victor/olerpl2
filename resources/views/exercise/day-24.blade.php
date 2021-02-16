@@ -5,16 +5,17 @@
     @endsection
     @section('konten')
     <?php 
-        $jumlahExercise = 16;
-        $jumlahWaktu = 30;
-        $kategori = Auth::user()->kategori;
-        if ($kategori == 2){
-            $jumlahWaktu = $jumlahWaktu + 2;
-            $jumlahExercise = $jumlahExercise + 2;
-        } else if ($kategori == 3){
-            $jumlahWaktu = $jumlahWaktu + 4;
-            $jumlahExercise = $jumlahExercise + 4;
-        }
+        $pushup = $pushup+11;
+        $situp = $situp+11;
+        $squat = $squat+11;
+        $starjump = $starjump+11;
+        $mountainclimber = $mountainclimber+11;
+        $cobras = $cobras+20;
+        $lunges = $lunges+11;
+        $russiantwist = $russiantwist+11;
+        $hipraises = $hipraises+11;
+        $plank = $plank+10;
+        $sideplank = $sideplank+10;
     ?>
         <section id="ole" class="day-one pb-5">
             <div class="container">          
@@ -31,7 +32,11 @@
                             Mulai
                         </button>
                         <p>
-                            <a href="{{ route('welcome') }}"><h6>Kembali</h6></a>
+                            <button type="button" class="button-kembali" style="height: 30px;width: 80px;margin-top: 20px; padding: 10px;">
+                            <a href="{{ route('welcome') }}" style="text-decoration: none; color: inherit;">
+                                <h6 style="font-size: 10px;">Kembali</h6>
+                            </a>
+                        </button>
                         </p>
                         <div class="waktu"></div>
                     </div>
@@ -44,7 +49,7 @@
                                         <div class="card-body">
                                             <div class="card-text text-center">
                                                 <p class="total-exercise">Push Up x ??</p>
-                                                <p class="total-exercise-active">Push Up x {{ $jumlahExercise }} </p>
+                                                <p class="total-exercise-active">Push Up x {{ $pushup }} </p>
                                             </div>
                                         </div>
                                     </div>
@@ -58,7 +63,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Sit Up x ??</p>
-                                            <p class="total-exercise-active">Sit Up x {{ $jumlahExercise }} </p>
+                                            <p class="total-exercise-active">Sit Up x {{ $situp }} </p>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +76,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Squat x ??</p>
-                                            <p class="total-exercise-active">Squat x {{ $jumlahExercise }} </p>
+                                            <p class="total-exercise-active">Squat x {{ $squat }} </p>
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +89,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Star Jump x ??</p>
-                                            <p class="total-exercise-active">Star Jump x {{ $jumlahExercise }} </p>
+                                            <p class="total-exercise-active">Star Jump x {{ $starjump }} </p>
                                         </div>
                                     </div>
                                 </div>
@@ -97,7 +102,8 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Cobra Stretch ??s</p>
-                                            <p class="total-exercise-active">Cobra S. x {{ $jumlahWaktu }}s </p>
+                                            
+                                            <p class="total-exercise-active">Cobra S. {{ $cobras }}s</p>
                                         </div>
                                     </div>
                                 </div>
@@ -112,7 +118,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Mountain C. ??</p>
-                                            <p class="total-exercise-active">Mountain C. x {{ $jumlahExercise }} </p>
+                                            <p class="total-exercise-active">Mountain C. x {{ $mountainclimber }} </p>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +131,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Lunges ??</p>
-                                            <p class="total-exercise-active">Lunges x {{ $jumlahExercise }} </p>
+                                            <p class="total-exercise-active">Lunges x {{ $lunges }} </p>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +144,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Russian Twist ??</p>
-                                            <p class="total-exercise-active">Russian Twist x {{ $jumlahExercise }} </p>
+                                            <p class="total-exercise-active">Russian Twist x {{ $russiantwist }} </p>
                                         </div>
                                     </div>
                                 </div>
@@ -151,7 +157,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                         <p class="total-exercise"> Plank ??s</p>
-                                            <p class="total-exercise-active">Plank. x {{ $jumlahWaktu }}s</p>
+                                            <p class="total-exercise-active">Plank. x {{ $plank }}s</p>
                                         </div>
                                     </div>
                                 </div>
@@ -164,7 +170,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Side Plank ??s</p>
-                                            <p class="total-exercise-active">Side Plank. x {{ $jumlahWaktu }}s</p>
+                                            <p class="total-exercise-active">Side Plank. x {{ $sideplank }}s</p>
                                         </div>
                                     </div>
                                 </div>
@@ -179,7 +185,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Hip Raises ??</p>
-                                            <p class="total-exercise-active">Hip Raises x {{ $jumlahExercise }} </p>
+                                            <p class="total-exercise-active">Hip Raises x {{ $hipraises }} </p>
                                         </div>
                                     </div>
                                 </div>
@@ -187,15 +193,17 @@
                         </div>
                         <div class="col-md">
                             <div class="exercise-12 final-day-24">
+                                <a href="#" data-toggle="modal" data-target="#selesaiDay24">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/cobra stretch.jpg')}}" alt="Card image cap">
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Cobra Stretch ??s</p>
-                                            <p class="total-exercise-active">Cobra S. x {{ $jumlahWaktu }}s</p>
+                                            <p class="total-exercise-active">Cobra S. x {{ $cobrastretch }}s</p>
                                         </div>
                                     </div>
                                 </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md">
@@ -235,14 +243,30 @@
                             </div>
                         </div>
                     </div>
-                    <div class="penutup">
-                        selamat!
-                        Kamu telah menyelesaikan olahraga hari ini
-                        <form action="{{ route('inputHistoryDay24') }}" >
-                            <button type="submit" class="button-mulai-lagi">Mulai Lagi</button>
-                            <button type="submit" class="selesai">Selesai</button>
-                        </form>
+                    <div class="modal fade" id="selesaiDay24" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                              <h1>SELESAI</h1>
+                          </div>
+                          <div class="modal-body">
+                            <center>
+                            <form action="{{ route('inputHistoryDay24') }}" >
+                            <p>Selamat!</p>
+                            <p>Kamu telah menyelesaikan olahraga hari 24 dengan waktu 
+                            <input type="text" id="timer" name="time" class="form-control" style="width: 200px; text-align: center;" readonly="readonly"></p>
+                            <p>Jangan lupa tekan tombol selesai untuk menyimpan hasil & jangan lupa untuk berolahraga lagi besok &#128513;</p>
+                                <button type="submit" class="button-mulai-lagi">Mulai Lagi</button>
+                                <button type="submit" class="selesai">Selesai</button>
+                                </form>
+                            </center>
+                          </div>
+                          <div class="modal-footer">
+                          </div>
+                        </div>
+                      </div>
                     </div>
+                </div>
                 </div>
             </div>
         </section>

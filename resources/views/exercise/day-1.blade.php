@@ -20,7 +20,11 @@
                             Mulai
                         </button>
                         <p>
-                            <a href="{{ route('welcome') }}"><h6>Kembali</h6></a>
+                        <button type="button" class="button-kembali" style="height: 30px;width: 80px;margin-top: 20px; padding: 10px;">
+                            <a href="{{ route('welcome') }}" style="text-decoration: none; color: inherit;">
+                                <h6 style="font-size: 10px;">Kembali</h6>
+                            </a>
+                        </button>
                         </p>
                             <p class="waktu"></p>
                     </div>
@@ -60,7 +64,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Squat x ??</p>
-                                            <p class="total-exercise-active">Squat x  {{ $squat }}</p>
+                                            <p class="total-exercise-active">Squat x {{ $squat }} </p>
                                         </div>
                                     </div>
                                 </div>
@@ -73,9 +77,7 @@
                                     <div class="card-body">
                                         <div class="card-text text-center">
                                             <p class="total-exercise">Star Jump x ??</p>
-                                            @foreach($starjump as $jml_starjump)
-                                            <p class="total-exercise-active">Star Jump x  {{ $jml_starjump->jumlah }}</p>
-                                            @endforeach
+                                            <p class="total-exercise-active">Star Jump x  {{ $starjump }}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -89,9 +91,7 @@
                                         <div class="card-body">
                                             <div class="card-text text-center">
                                                 <p class="total-exercise">Cobra S. ??s</p>
-                                                @foreach($cobras as $jml_cobras)
-                                                <p class="total-exercise-active">Cobra S. x  {{ $jml_cobras->jumlah }}</p>
-                                                @endforeach
+                                                <p class="total-exercise-active">Cobra S. x  {{ $cobras }}</p>
                                             </div>
                                         </div>
                                     </div>
@@ -123,7 +123,7 @@
                         <center>
                         <p>Selamat!</p>
                         <p>Kamu telah menyelesaikan olahraga hari 1 dengan waktu 
-                        <input type="text" id="timer" name="time" class="form-control" style="width: 200px; text-align: center;"></p>
+                        <input type="text" id="timer" name="time" class="form-control" style="width: 200px; text-align: center;" readonly="readonly"></p>
                         <p>Jangan lupa tekan tombol selesai untuk menyimpan hasil & jangan lupa untuk berolahraga lagi besok &#128513;</p>
                             <button type="button" class="button-mulai-lagi">Mulai Lagi</button>
                                 <button type="submit" class="selesai">Selesai</button>

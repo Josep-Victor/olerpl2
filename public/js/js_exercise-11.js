@@ -328,8 +328,8 @@ $(document).ready(function(){
                 opacity: 0.5
             });
             $(".waktu").stopwatch({format:'{MM}:{ss}'}).stopwatch('stop');
-            $(".penutup").addClass('penutup-active');
-            $(".day-one").addClass('day-one-penutup');
+            var waktu = $('.waktu').html();
+            $('#timer').val(waktu);
             $(".preview").hide();
         }
 
