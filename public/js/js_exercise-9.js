@@ -1,4 +1,10 @@
 $(document).ready(function(){
+    $('.preview').click(function(){
+        
+        $('html,body').animate({
+            scrollTop: $(".exercise-1").offset().top},
+            3000);
+    });
     var exerciseStart;
     $('.button-mulai').click(function(){
         $('.exercise-1').animate({
@@ -14,6 +20,9 @@ $(document).ready(function(){
         exerciseStart = true;
         $('.exercise-1 .total-exercise').replaceWith($('.exercise-1 .total-exercise-active').text());
         
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            4000);
         $(this).animate({
             opacity: 0
         });
@@ -40,6 +49,9 @@ $(document).ready(function(){
             $('.img-preview').fadeOut(500, function() {
             $('.img-preview').attr("src",$('.img-preview-2').attr("src"));
             $('.img-preview').fadeIn(500);
+            $('html,body').animate({
+                scrollTop: $(".preview").offset().top},
+                3000);
             });
         }
         
@@ -68,6 +80,9 @@ $(document).ready(function(){
         $('.img-preview').fadeOut(500, function() {
             $('.img-preview').attr("src",$('.img-preview-3').attr("src"));
         $('.img-preview').fadeIn(500);
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            3000);
         });
         }
         else if (exerciseClicked1 != true) {
@@ -97,6 +112,9 @@ $(document).ready(function(){
         $('.img-preview').fadeOut(500, function() {
             $('.img-preview').attr("src",$('.img-preview-4').attr("src"));
         $('.img-preview').fadeIn(500);
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            3000);
         });
     }
         else if (exerciseClicked2 != true) {
@@ -127,6 +145,9 @@ $(document).ready(function(){
         $('.img-preview').fadeOut(500, function() {
             $('.img-preview').attr("src",$('.img-preview-5').attr("src"));
         $('.img-preview').fadeIn(500);
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            3000);
         });
     }
         else if (exerciseClicked3 != true) {
@@ -157,6 +178,9 @@ $(document).ready(function(){
         $('.img-preview').fadeOut(500, function() {
             $('.img-preview').attr("src",$('.img-preview-6').attr("src"));
         $('.img-preview').fadeIn(500);
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            3000);
         });
     }
         else if (exerciseClicked4 != true) {
@@ -187,6 +211,9 @@ $(document).ready(function(){
         $('.img-preview').fadeOut(500, function() {
             $('.img-preview').attr("src",$('.img-preview-7').attr("src"));
         $('.img-preview').fadeIn(500);
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            3000);
         });
     }
         else if (exerciseClicked5 != true) {
@@ -217,6 +244,9 @@ $(document).ready(function(){
         $('.img-preview').fadeOut(500, function() {
             $('.img-preview').attr("src",$('.img-preview-8').attr("src"));
         $('.img-preview').fadeIn(500);
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            3000);
         });
     }
         else if (exerciseClicked6 != true) {
@@ -247,6 +277,9 @@ $(document).ready(function(){
         $('.img-preview').fadeOut(500, function() {
             $('.img-preview').attr("src",$('.img-preview-9').attr("src"));
         $('.img-preview').fadeIn(500);
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            3000);
         });
     }
         else if (exerciseClicked7 != true) {

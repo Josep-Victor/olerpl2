@@ -23,7 +23,7 @@
                     <div class="row pt-5">
                         <div class="col text-center text-white">
                         <h1>Day 24</h1>
-                        <h3><i>Push-up, Sit-up, Squat, Jumping jack</i></h3>
+                        <h3><i>{{ $judulhari24 }}</i></h3>
                         <center><hr color="white" width="200"></hr></center>
                         </div>
                     </div>
@@ -41,7 +41,7 @@
                         <div class="waktu"></div>
                     </div>
                     <div class="row mb-4 ">
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-1">
                                 <div class="exercise-pushup">
                                     <div class="card">
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-2">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/sit-up.jpg')}}" alt="Card image cap">
@@ -69,7 +69,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-3">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/squat.jpg')}}" alt="Card image cap">
@@ -82,7 +82,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-4">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/Star Jump.jpg')}}" alt="Card image cap">
@@ -95,7 +95,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-5">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/cobra stretch.jpg')}}" alt="Card image cap">
@@ -111,7 +111,7 @@
                         </div>
                     </div>
                     <div class="row pt-5">
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-6">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/mountain climber.jpg')}}" alt="Card image cap">
@@ -124,7 +124,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-7">
                                 <div class="card">
                                     <img class="card-img-top" src="{{asset('img/Lunges.jpg')}}" alt="Card image cap">
@@ -137,7 +137,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-8">
                                 <div class="card">                                    
                                     <img class="card-img-top" src="{{asset('img/russian twist.jpg')}}" alt="Card image cap">
@@ -150,7 +150,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-9">
                                 <div class="card">                                   
                                     <img class="card-img-top" src="{{asset('img/plank.jpg')}}" alt="Card image cap">
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-10">
                                 <div class="card">                                   
                                     <img class="card-img-top" src="{{asset('img/Side Plank.jpg')}}" alt="Card image cap">
@@ -178,7 +178,7 @@
                         </div>
                     </div>
                     <div class="row pt-5">
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-11">
                                 <div class="card">                                    
                                     <img class="card-img-top" src="{{asset('img/Hip Raises.jpg')}}" alt="Card image cap">
@@ -191,7 +191,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-12 final-day-24">
                                 <a href="#" data-toggle="modal" data-target="#selesaiDay24">
                                 <div class="card">
@@ -206,18 +206,18 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-13">
                                 <div class="card" style="opacity:0;">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md">
+                        <div class="col">
                             <div class="exercise-14">
                                 <div class="card" style="opacity:0;">
                                 </div>
                             </div>
-                        </div><div class="col-md">
+                        </div><div class="col">
                             <div class="exercise-15">
                                 <div class="card" style="opacity:0;">
                                 </div>
@@ -225,7 +225,7 @@
                         </div>
                     </div>
                     <div class="row mb-4 ">
-                        <div class="col-md">
+                        <div class="col">
                             <div class="preview">
                                 <div class="text-center">Preview</div>
                                 <img class="img-preview" src="{{asset('img/push-ups.jpg')}}" style="width: 100%; opacity: 0;">

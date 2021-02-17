@@ -5,7 +5,7 @@
                     <div class="card img-fluid" >
                     <img class="card-img-top day-preview" src="{{ asset('img/squat.jpg') }}" alt="card image" style="width: 100%; height: 100%; ">
                       <div class="card-img-overlay">
-                          <p class="card-text text-center kalender-1-card-text">DAY 16</p>
+                          <p class="card-text text-center kalender-1-card-text">{{ $hari16 }}</p>
                       </div>
                     </div>
                   </a>
@@ -15,7 +15,7 @@
                   <div class="card img-fluid" >
                   <img class="card-img-top day-preview" src="{{ asset('img/Star Jump.jpg') }}" alt="card image" style="width: 100%; height: 100%; ">
                     <div class="card-img-overlay">
-                        <p class="card-text text-center kalender-1-card-text">DAY 17</p>
+                        <p class="card-text text-center kalender-1-card-text">{{ $hari17 }}</p>
                     </div>
                   </div>
                 </a>
@@ -25,7 +25,7 @@
                 <div class="card img-fluid" >
                 <img class="card-img-top day-preview" src="{{ asset('img/cobra stretch.jpg') }}" alt="card image" style="width: 100%; height: 100%; ">
                   <div class="card-img-overlay">
-                      <p class="card-text text-center kalender-1-card-text">DAY 18</p>
+                      <p class="card-text text-center kalender-1-card-text">{{ $hari18 }}</p>
                   </div>
                 </div>
               </a>
@@ -35,7 +35,7 @@
                 <div class="card img-fluid" >
                 <img class="card-img-top day-preview" src="{{ asset('img/mountain climber.jpg') }}" alt="card image" style="width: 100%; height: 100%; ">
                   <div class="card-img-overlay">
-                      <p class="card-text text-center kalender-1-card-text">DAY 19</p>
+                      <p class="card-text text-center kalender-1-card-text">{{ $hari19 }}</p>
                   </div>
                 </div>
               </a>
@@ -45,7 +45,7 @@
                 <div class="card img-fluid" >
                 <img class="card-img-top day-preview" src="{{ asset('img/Lunges.jpg') }}" alt="card image" style="width: 100%; height: 100%; ">
                   <div class="card-img-overlay">
-                      <p class="card-text text-center kalender-1-card-text">DAY 20</p>
+                      <p class="card-text text-center kalender-1-card-text">{{ $hari20 }}</p>
                   </div>
                 </div>
               </a>

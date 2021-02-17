@@ -1,4 +1,11 @@
 $(document).ready(function(){
+
+    $('.preview').click(function(){
+        
+        $('html,body').animate({
+            scrollTop: $(".exercise-1").offset().top},
+            3000);
+    });
     var exerciseStart;
     $('.button-mulai').click(function(){
         $('.exercise-1').animate({
@@ -13,6 +20,9 @@ $(document).ready(function(){
         exerciseStart = true;
         $('.exercise-1 .total-exercise').replaceWith($('.exercise-1 .total-exercise-active').text());
         
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            2000);
         $(this).animate({
             opacity: 0
         });
@@ -39,6 +49,9 @@ $(document).ready(function(){
             $('.img-preview').fadeOut(500, function() {
             $('.img-preview').attr("src",$('.img-preview-2').attr("src"));
             $('.img-preview').fadeIn(500);
+            $('html,body').animate({
+                scrollTop: $(".preview").offset().top},
+                3000);
             });
         }
         
@@ -65,8 +78,11 @@ $(document).ready(function(){
         $('.exercise-3 .total-exercise').replaceWith($('.exercise-3 .total-exercise-active').text());
         
         $('.img-preview').fadeOut(500, function() {
-            $('.img-preview').attr("src",$('.img-preview-3').attr("src"));
+        $('.img-preview').attr("src",$('.img-preview-3').attr("src"));
         $('.img-preview').fadeIn(500);
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            3000);
         });
         }
         else if (exerciseClicked1 != true) {
@@ -94,8 +110,11 @@ $(document).ready(function(){
         $('.exercise-4 .total-exercise').replaceWith($('.exercise-4 .total-exercise-active').text());
         
         $('.img-preview').fadeOut(500, function() {
-            $('.img-preview').attr("src",$('.img-preview-4').attr("src"));
+        $('.img-preview').attr("src",$('.img-preview-4').attr("src"));
         $('.img-preview').fadeIn(500);
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            3000);
         });
     }
         else if (exerciseClicked2 != true) {
@@ -124,8 +143,11 @@ $(document).ready(function(){
         $('.exercise-5 .total-exercise').replaceWith($('.exercise-5 .total-exercise-active').text());
         
         $('.img-preview').fadeOut(500, function() {
-            $('.img-preview').attr("src",$('.img-preview-5').attr("src"));
+        $('.img-preview').attr("src",$('.img-preview-5').attr("src"));
         $('.img-preview').fadeIn(500);
+        $('html,body').animate({
+            scrollTop: $(".preview").offset().top},
+            3000);
         });
     }
         else if (exerciseClicked3 != true) {
@@ -155,18 +177,6 @@ $(document).ready(function(){
         else {
             alert("selesaikan dulu latihan sebelumnya!");
     }
-    });
-    
-    $(".final-day-1").click(function(){
-        localStorage.setItem("Hari1-cat1", 1);
-    });
-    
-    $(".final-day-2").click(function(){
-        localStorage.setItem("Hari2-cat1", 1);
-    });
-
-    $(".final-day-3").click(function(){
-        localStorage.setItem("Hari3-cat1", 1);
     });
     
     $('.button-mulai-lagi').click(function(){
